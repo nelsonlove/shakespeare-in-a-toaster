@@ -3,6 +3,15 @@
   src: url("fonts/ChicagoFLF.ttf") format("truetype");
   font-display: swap;
 }
+@font-face {
+  /* Vevey = the actual Geneva 9 bitmap strike from a System 7.5.5
+     suitcase, converted to pixel outlines (see web/tools/make_vevey.py).
+     Renders 1:1 at 9px; use integer multiples (18px = 2x) for crisp pixels. */
+  font-family: "Vevey";
+  src: url("fonts/Vevey.woff2") format("woff2"),
+       url("fonts/Vevey.ttf") format("truetype");
+  font-display: swap;
+}
 :root {
   --chicago: "ChicagoFLF", "Chicago", Geneva, "Helvetica Neue", monospace;
 }
@@ -58,10 +67,10 @@ body {
 .title-bar.mini { height: 14px; }
 
 #main-window { width: min(560px, 92vw); }
-/* Sonnet text is Geneva, as in the original (Chicago is chrome only);
-   Verdana is Geneva's screen-font descendant for non-Macs. */
-#sonnet { padding: 18px 26px; font-family: Geneva, Verdana, sans-serif; font-size: 15px; line-height: 1.6; }
-.line { min-height: 1.6em; padding: 0 6px; cursor: pointer; white-space: pre-wrap; }
+/* Sonnet text is the real Geneva 9 bitmap (as "Vevey"), 2x pixel scale.
+   Chicago remains chrome-only, as on a real System 7 desktop. */
+#sonnet { padding: 18px 26px; font-family: "Vevey", Geneva, sans-serif; font-size: 18px; line-height: 24px; }
+.line { min-height: 24px; padding: 0 6px; cursor: pointer; white-space: pre-wrap; }
 .line:hover { outline: 1px dotted #000; }
 /* The original marked frozen lines with italics, not a selection bar. */
 .line.frozen { font-style: italic; }
