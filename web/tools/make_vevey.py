@@ -25,8 +25,9 @@ from fontTools.fontBuilder import FontBuilder
 from fontTools.pens.ttGlyphPen import TTGlyphPen
 from fontTools.ttLib import TTFont
 
-PX = 100          # font units per bitmap pixel
-FONT_RES_ID = 393  # Geneva 9 plain, per the Geneva FOND association table
+PX = 100           # font units per bitmap pixel
+POINT_SIZE = 9      # the strike's point size (from the FOND association table)
+FONT_RES_ID = 393   # Geneva 9 plain, per the Geneva FOND association table
 
 
 def resource_fork(macbinary: bytes) -> bytes:
@@ -89,7 +90,10 @@ def decode_strike(d: bytes) -> dict:
 
 def build(font: dict, outdir: Path):
     asc, desc = font["ascent"], font["descent"]
-    upm = (asc + desc - 3) * PX  # 9 px em for the 9 pt strike
+    # The em of a bitmap strike equals its point size (9 px for Geneva 9),
+    # NOT ascent+descent (this strike's fRect is 12 px tall to fit accents).
+    # upm = 900 -> CSS font-size 9px renders 1:1, 18px renders 2x.
+    upm = POINT_SIZE * PX
     src = font["glyphs"]
 
     def gname(code):
