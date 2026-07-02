@@ -4,9 +4,11 @@
   font-display: swap;
 }
 @font-face {
-  /* Vevey = the actual Geneva 9 bitmap strike from a System 7.5.5
-     suitcase, converted to pixel outlines (see web/tools/make_vevey.py).
-     Renders 1:1 at 9px; use integer multiples (18px = 2x) for crisp pixels. */
+  /* Vevey = the actual Geneva 12 bitmap strike from a System 7.5.5
+     suitcase, converted to pixel outlines (see web/tools/make_vevey.py) —
+     the original app calls TextFont(3)/TextSize(12), so Geneva 12 is the
+     faithful face. Renders 1:1 at 12px; integer multiples (24px = 2x)
+     stay pixel-crisp. */
   font-family: "Vevey";
   src: url("fonts/Vevey.woff2") format("woff2"),
        url("fonts/Vevey.ttf") format("truetype");
@@ -67,10 +69,11 @@ body {
 .title-bar.mini { height: 14px; }
 
 #main-window { width: min(560px, 92vw); }
-/* Sonnet text is the real Geneva 9 bitmap (as "Vevey"), 2x pixel scale.
+/* Sonnet text is the real Geneva 12 bitmap (as "Vevey"), 2x pixel scale;
+   line grid = 2x the classic 16px Geneva-12 line (12+3+1 leading).
    Chicago remains chrome-only, as on a real System 7 desktop. */
-#sonnet { padding: 18px 26px; font-family: "Vevey", Geneva, sans-serif; font-size: 18px; line-height: 24px; }
-.line { min-height: 24px; padding: 0 6px; cursor: pointer; white-space: pre-wrap; }
+#sonnet { padding: 18px 26px; font-family: "Vevey", Geneva, sans-serif; font-size: 24px; line-height: 32px; }
+.line { min-height: 32px; padding: 0 6px; cursor: pointer; white-space: pre-wrap; }
 .line:hover { outline: 1px dotted #000; }
 /* The original marked frozen lines with italics, not a selection bar. */
 .line.frozen { font-style: italic; }

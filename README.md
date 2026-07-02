@@ -97,10 +97,11 @@ wouldn't sound like 1989 otherwise.
 - **Rich Salz** — "Overhauled by /rich $alz".
 - **Paul DuBois** — TransSkel, the application framework the original
   was built on.
-- The web version's sonnet type is **"Vevey"** — the actual Geneva 9
+- The web version's sonnet type is **"Vevey"** — the actual Geneva 12
   bitmap strike from a System 7.5.5 suitcase, converted to pixel
-  outlines (`web/tools/make_vevey.py`); Chicago chrome is ChicagoFLF
-  (public domain, Robin Casady).
+  outlines (`web/tools/make_vevey.py`). Geneva 12 because the original
+  binary literally calls `TextFont(3); TextSize(12)`. Chicago chrome is
+  ChicagoFLF (public domain, Robin Casady).
 
 Those credits come from the original's scrolling About box, which also
 notes it was "rewritten for the Macintosh" — pointing at an earlier,
