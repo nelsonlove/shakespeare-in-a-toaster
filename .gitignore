@@ -16,3 +16,6 @@ uv.lock
 
 # App output
 *.out
+
+# Web build output (copied from src/toaster/data by web/build.sh)
+web/public/lexicon.json
