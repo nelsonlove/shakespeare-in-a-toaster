@@ -168,14 +168,24 @@ class WordFormScreen(ModalScreen["tuple[str, int, str, str] | None"]):
             yield Select(((label, c) for c, label in FOOT_LEGEND.items()),
                          value=cls_id if cls_id is not None else Select.NULL,
                          prompt="choose a foot…", id="foot")
+            # The 1989 lexicon contains a few off-legend codes (adamant='o');
+            # include the word's current code as an option so Change never
+            # crashes on a value the Select doesn't know.
+            vowel_opts = [(f"{code}  {label}", code)
+                          for code, label in VOWEL_LEGEND.items()]
+            if vowel is not None and vowel not in VOWEL_LEGEND:
+                vowel_opts.append((f"{vowel}  {vowel_label(vowel)}", vowel))
+            cons_opts = [(f"{code}  {label}" if code != " " else label, code)
+                         for code, label in CONSONANT_LEGEND.items()]
+            if consonant is not None and consonant not in CONSONANT_LEGEND:
+                cons_opts.append(
+                    (f"{consonant}  {consonant_label(consonant)}", consonant))
             yield Label("Vowel type")
-            yield Select(((f"{code}  {label}", code)
-                          for code, label in VOWEL_LEGEND.items()),
+            yield Select(vowel_opts,
                          value=vowel if vowel is not None else Select.NULL,
                          prompt="choose a vowel sound…", id="vowel")
             yield Label("Consonant")
-            yield Select(((f"{code}  {label}" if code != " " else label, code)
-                          for code, label in CONSONANT_LEGEND.items()),
+            yield Select(cons_opts,
                          value=consonant if consonant is not None else Select.NULL,
                          prompt="choose a final consonant…", id="consonant")
             with Horizontal(classes="buttons"):

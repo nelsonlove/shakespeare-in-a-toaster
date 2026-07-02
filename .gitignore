@@ -15,4 +15,4 @@ uv.lock
 .DS_Store
 
 # App output
-sonnet.out
+*.out

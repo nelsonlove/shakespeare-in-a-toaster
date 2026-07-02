@@ -77,10 +77,8 @@ def test_seed_determinism(lexicon):
 
 def line_positions(lexicon, line):
     """Recompute the metrical positions a composed line consumes."""
-    connectives = set()
-    for _, entry in k.CONNECTIVES:
-        for form in (entry if isinstance(entry, tuple) else (entry,)):
-            connectives.add(form)
+    from toaster.engine.composer import connective_words
+    connectives = connective_words()
     pos, i = 0, 0
     toks = line.tokens
     while i < len(toks):
@@ -91,7 +89,7 @@ def line_positions(lexicon, line):
                 hit = (lexicon.lookup(cand), span)
                 break
         if hit is None:
-            assert toks[i] in connectives or toks[i].lower() in connectives, toks[i]
+            assert toks[i].lower() in connectives, toks[i]
             pos += 1
             i += 1
             continue
@@ -204,3 +202,59 @@ def test_load_unparseable_line_kept_frozen(lexicon):
     first = loaded.verse_lines[0]
     assert first.frozen
     assert first.text == text.strip()
+
+
+# -- regression tests for the review findings ---------------------------------
+
+def test_rewrite_gets_fresh_rhyme_sounds(lexicon):
+    """compose() must clear unfrozen lines so rhyme groups aren't locked."""
+    comp = composer(lexicon, seed=2)
+    sonnet = comp.new_sonnet()
+    vowels = set()
+    for _ in range(6):
+        comp.compose(sonnet)
+        vowels.add(sonnet.verse_lines[0].end_word.vowel)
+    assert len(vowels) > 1, "rhyme group A locked to one vowel across rewrites"
+
+
+def test_load_overflow_lines_kept(lexicon):
+    comp = composer(lexicon, seed=8)
+    text = comp.new_sonnet().text + "\nExtra line one xyzzy\nExtra line two xyzzy\n"
+    loaded = load_sonnet(text, lexicon)
+    non_blank = [ln for ln in loaded.lines if not ln.blank]
+    assert len(non_blank) == 16
+    assert non_blank[-1].frozen and non_blank[-1].text == "Extra line two xyzzy"
+    assert "Extra line one xyzzy" in loaded.text
+
+
+def test_load_connective_O_parses(lexicon):
+    loaded = load_sonnet("O zoo\n", lexicon)
+    first = loaded.verse_lines[0]
+    assert not first.frozen, "'O' connective should parse, not demote to literal"
+    assert first.end_word.text == "zoo"
+
+
+def test_frozen_literal_multiword_end_rhymes(lexicon):
+    """A frozen literal ending in a multi-word entry constrains partners."""
+    comp = composer(lexicon, seed=4)
+    sonnet = Sonnet()
+    leader = sonnet.verse_lines[0]
+    leader.literal = "xyzzy unknown Objective C"
+    leader.frozen = True
+    comp.compose(sonnet)
+    objc = lexicon.word_at(*lexicon.lookup("Objective C"))
+    partner = sonnet.verse_lines[2]  # other 'A' line
+    assert partner.end_word.vowel == objc.vowel
+    assert partner.end_word.text.lower() != "objective c"
+
+
+def test_no_repeats_sees_frozen_literals(lexicon):
+    comp = composer(lexicon, seed=6, no_repeats=True)
+    sonnet = Sonnet()
+    leader = sonnet.verse_lines[0]
+    leader.literal = "the zoo enthralled a windbag"
+    leader.frozen = True
+    comp.compose(sonnet)
+    used = [t.lower() for ln in sonnet.verse_lines if not ln.frozen
+            for t in ln.tokens if lexicon.lookup(t)]
+    assert "zoo" not in used and "windbag" not in used

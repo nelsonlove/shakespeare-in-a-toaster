@@ -86,6 +86,7 @@ class ToasterApp(App):
         super().__init__()
         self.composer = composer
         self.sonnet = composer.new_sonnet()
+        self._composing = False
 
     def compose(self) -> ComposeResult:
         yield Header()
@@ -106,34 +107,50 @@ class ToasterApp(App):
     def status(self, text: str):
         self.query_one("#status", Static).update(text)
 
-    async def _compose_with_spinner(self, coro):
-        """Run compose with a beach-ball nod in the status bar."""
+    async def _compose_with_spinner(self, fn):
+        """Run compose off the event loop, spinning the beach ball meanwhile.
+
+        Returns True on success. On ComposeError, shows the error and
+        returns False — the caller must still refresh the view, since the
+        sonnet may have been partially recomposed in place.
+        """
+        if self._composing:
+            return False
+        self._composing = True
         status = self.query_one("#status", Static)
-        for ch in SPINNER:
-            status.update(f"{ch} composing…")
-            await asyncio.sleep(0.03)
-        coro()
-        status.update("")
+        task = asyncio.create_task(asyncio.to_thread(fn))
+        frame = 0
+        try:
+            while not task.done():
+                status.update(f"{SPINNER[frame % len(SPINNER)]} composing…")
+                frame += 1
+                await asyncio.sleep(0.05)
+            await task
+            return True
+        except ComposeError as exc:
+            self.push_screen(MessageScreen(str(exc)))
+            return False
+        finally:
+            status.update("")
+            self._composing = False
 
     # -- actions ---------------------------------------------------------------
 
     async def action_new_sonnet(self):
+        fresh = None
+
         def make():
-            self.sonnet = self.composer.new_sonnet()
-        try:
-            await self._compose_with_spinner(make)
-        except ComposeError as exc:
-            self.push_screen(MessageScreen(str(exc)))
-            return
-        await self.view.set_sonnet(self.sonnet)
+            nonlocal fresh
+            fresh = self.composer.new_sonnet()
+        if await self._compose_with_spinner(make) and fresh is not None:
+            self.sonnet = fresh
+            await self.view.set_sonnet(self.sonnet)
 
     async def action_rewrite(self):
-        try:
-            await self._compose_with_spinner(
-                lambda: self.composer.compose(self.sonnet))
-        except ComposeError as exc:
-            self.push_screen(MessageScreen(str(exc)))
-            return
+        await self._compose_with_spinner(
+            lambda: self.composer.compose(self.sonnet))
+        # Refresh even on failure: lines may have been recomposed in place,
+        # and the display must always match what Save would write.
         self.view.refresh_lines()
 
     def action_save(self):
@@ -154,7 +171,7 @@ class ToasterApp(App):
                 return
             try:
                 text = Path(path).expanduser().read_text()
-            except OSError as exc:
+            except (OSError, UnicodeDecodeError) as exc:
                 self.push_screen(MessageScreen(f"Could not read: {exc}"))
                 return
             self.sonnet = load_sonnet(text, self.composer.lexicon,

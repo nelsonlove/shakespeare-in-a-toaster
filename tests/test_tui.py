@@ -103,6 +103,55 @@ async def test_manage_words_add_persists(app, tmp_path):
         assert fresh.lookup("zorkmid") is not None
 
 
+async def test_open_literal_with_markup_brackets_no_crash(app, tmp_path):
+    """Loaded literal lines containing [brackets] must not parse as markup."""
+    from textual.widgets import Input
+    path = tmp_path / "weird.out"
+    path.write_text("xyzzy [/bold] not a real closing tag\n")
+    async with app.run_test(size=(100, 40)) as pilot:
+        await pilot.press("o")
+        await pilot.pause()
+        app.screen.query_one("#path", Input).value = str(path)
+        await pilot.press("enter")
+        await pilot.pause()
+        first = list(app.query(LineWidget))[0]
+        assert first.line.frozen
+        assert "[/bold]" in first.line.text
+
+
+async def test_open_non_utf8_shows_message(app, tmp_path):
+    from textual.widgets import Input
+    from toaster.tui.dialogs import MessageScreen
+    path = tmp_path / "binary.out"
+    path.write_bytes(b"\xff\xfe\x00garbage\x9c")
+    async with app.run_test(size=(100, 40)) as pilot:
+        await pilot.press("o")
+        await pilot.pause()
+        app.screen.query_one("#path", Input).value = str(path)
+        await pilot.press("enter")
+        await pilot.pause()
+        assert isinstance(app.screen, MessageScreen)
+
+
+async def test_change_word_with_stray_code_no_crash(app):
+    """'adamant' carries the off-legend consonant 'o'; Change must not crash."""
+    from toaster.tui.dialogs import ManageWordsScreen, WordFormScreen
+    from textual.widgets import DataTable
+    async with app.run_test(size=(120, 45)) as pilot:
+        await pilot.press("m")
+        await pilot.pause()
+        assert isinstance(app.screen, ManageWordsScreen)
+        table = app.screen.query_one(DataTable)
+        cls_id, idx = next(
+            (c, i) for c, words in app.composer.lexicon.classes.items()
+            for i, w in enumerate(words) if w.text == "adamant")
+        row = table.get_row_index(f"{cls_id}:{idx}")
+        table.move_cursor(row=row)
+        await pilot.click("#change")
+        await pilot.pause()
+        assert isinstance(app.screen, WordFormScreen)
+
+
 async def test_help_and_about_open(app):
     from toaster.tui.dialogs import AboutScreen, HelpScreen
     async with app.run_test(size=(100, 40)) as pilot:

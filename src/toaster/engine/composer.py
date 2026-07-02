@@ -25,6 +25,25 @@ class ComposeError(RuntimeError):
     """Raised when composition cannot terminate (degenerate lexicon/scheme)."""
 
 
+def connective_words() -> set[str]:
+    """Every single word a connective can contribute, lowercased."""
+    words: set[str] = set()
+    for _, entry in k.CONNECTIVES:
+        for form in (entry if isinstance(entry, tuple) else (entry,)):
+            words.update(w.lower() for w in form.split())
+    return words
+
+
+def match_end_word(lexicon: Lexicon, tokens: list[str]) -> Word | None:
+    """The lexicon entry ending a token list (multi-word entries first)."""
+    for span in (3, 2, 1):
+        if len(tokens) >= span:
+            hit = lexicon.lookup(" ".join(tokens[-span:]))
+            if hit:
+                return lexicon.word_at(*hit)
+    return None
+
+
 @dataclass
 class Line:
     letter: str | None            # rhyme-group letter; None for blank lines
@@ -99,11 +118,18 @@ class Composer:
 
     def compose(self, sonnet: Sonnet):
         """Compose (or recompose) every unfrozen verse line in place."""
+        # Clear unfrozen lines first so rhyme groups pick fresh sounds:
+        # only frozen lines (and lines filled this pass) constrain rhyme.
+        for ln in sonnet.verse_lines:
+            if not ln.frozen:
+                ln.tokens, ln.end_word, ln.literal = [], None, None
         used_words = set()
         if self.options.no_repeats:
             for ln in sonnet.verse_lines:
                 if ln.frozen:
                     used_words.update(t.lower() for t in ln.tokens)
+                    if ln.literal is not None:
+                        used_words.update(t.lower() for t in ln.literal.split())
         for line in sonnet.verse_lines:
             if line.frozen:
                 continue
@@ -129,13 +155,16 @@ class Composer:
                     code = other.end_word.rhyme_code
                 taken.append(other.end_word.text.lower())
             elif other.literal is not None:
-                # frozen literal line: derive rhyme from its last token if known
-                last = other.literal.split()[-1] if other.literal.split() else ""
-                hit = self.lexicon.lookup(last)
-                if hit and code is None:
-                    code = self.lexicon.word_at(*hit).rhyme_code
-                if last:
-                    taken.append(last.lower())
+                # frozen literal line: derive rhyme from its ending words
+                # (multi-word lexicon entries included)
+                toks = other.literal.split()
+                end = match_end_word(self.lexicon, toks)
+                if end is not None:
+                    if code is None:
+                        code = end.rhyme_code
+                    taken.append(end.text.lower())
+                elif toks:
+                    taken.append(toks[-1].lower())
         return code, taken
 
     # -- line composition ----------------------------------------------------
@@ -247,13 +276,11 @@ def load_sonnet(text: str, lexicon: Lexicon,
     lines are restored as normal lines; anything else is kept verbatim
     as a frozen literal line so no text is ever dropped.
     """
-    connective_words = set()
-    for _, entry in k.CONNECTIVES:
-        for form in (entry if isinstance(entry, tuple) else (entry,)):
-            connective_words.update(form.split())
+    connectives = connective_words()
 
     sonnet = Sonnet(scheme)
     verse_iter = iter(sonnet.verse_lines)
+    overflow_no = len(sonnet.verse_lines)
     for raw in text.splitlines():
         raw = raw.strip()
         if not raw:
@@ -261,7 +288,13 @@ def load_sonnet(text: str, lexicon: Lexicon,
         try:
             line = next(verse_iter)
         except StopIteration:
-            break
+            # More lines than the scheme has slots: keep every one as a
+            # frozen literal on its own rhyme letter (never drop text).
+            overflow_no += 1
+            line = Line(letter=f"\x00{overflow_no}", verse_no=overflow_no,
+                        literal=raw, frozen=True)
+            sonnet.lines.append(line)
+            continue
         tokens = raw.split()
         parsed: list[str] = []
         words: list[Word] = []
@@ -279,8 +312,8 @@ def load_sonnet(text: str, lexicon: Lexicon,
                 words.append(lexicon.word_at(cls_id, idx))
                 parsed.append(cand)
                 i += span
-            elif tokens[i].lower() in connective_words:
-                parsed.append(tokens[i].lower())
+            elif tokens[i].lower() in connectives:
+                parsed.append(tokens[i])
                 i += 1
             else:
                 ok = False

@@ -2,6 +2,7 @@
 
 from __future__ import annotations
 
+from rich.text import Text
 from textual.binding import Binding
 from textual.containers import Vertical
 from textual.message import Message
@@ -33,7 +34,9 @@ class LineWidget(Static, can_focus=True):
 
     def refresh_text(self):
         prefix = FROZEN_MARK if self.line.frozen else PAD
-        self.update(prefix + self.line.text)
+        # Rich Text, not str: loaded literal lines may contain [brackets]
+        # that must never be parsed as markup.
+        self.update(Text(prefix + self.line.text))
         self.set_class(self.line.frozen, "frozen")
 
     def on_click(self):
