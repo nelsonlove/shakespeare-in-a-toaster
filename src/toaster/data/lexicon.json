@@ -1,0 +1,8116 @@
+{
+ "FT_UNUSED": {
+  "resource_id": 132,
+  "count": 0,
+  "words": []
+ },
+ "FT_HF": {
+  "resource_id": 129,
+  "count": 428,
+  "words": [
+   {
+    "word": "Bach",
+    "rhyme": "oc"
+   },
+   {
+    "word": "Bronx",
+    "rhyme": "ox"
+   },
+   {
+    "word": "Bush",
+    "rhyme": "uA"
+   },
+   {
+    "word": "Coke",
+    "rhyme": "Oc"
+   },
+   {
+    "word": "France",
+    "rhyme": "aJ"
+   },
+   {
+    "word": "French",
+    "rhyme": "eV"
+   },
+   {
+    "word": "God",
+    "rhyme": "od"
+   },
+   {
+    "word": "Job",
+    "rhyme": "Ob"
+   },
+   {
+    "word": "MIRV",
+    "rhyme": "rv"
+   },
+   {
+    "word": "OM",
+    "rhyme": "Om"
+   },
+   {
+    "word": "Quayle",
+    "rhyme": "Al"
+   },
+   {
+    "word": "Rich",
+    "rhyme": "iC"
+   },
+   {
+    "word": "Zen",
+    "rhyme": "en"
+   },
+   {
+    "word": "ace",
+    "rhyme": "As"
+   },
+   {
+    "word": "add",
+    "rhyme": "ad"
+   },
+   {
+    "word": "ain't",
+    "rhyme": "AG"
+   },
+   {
+    "word": "angst",
+    "rhyme": "oB"
+   },
+   {
+    "word": "animate",
+    "rhyme": "At"
+   },
+   {
+    "word": "ant",
+    "rhyme": "aG"
+   },
+   {
+    "word": "ape",
+    "rhyme": "Ap"
+   },
+   {
+    "word": "arc",
+    "rhyme": "oO"
+   },
+   {
+    "word": "asks",
+    "rhyme": "aW"
+   },
+   {
+    "word": "awe",
+    "rhyme": "o "
+   },
+   {
+    "word": "ax",
+    "rhyme": "ax"
+   },
+   {
+    "word": "bare",
+    "rhyme": "Ar"
+   },
+   {
+    "word": "bash",
+    "rhyme": "aA"
+   },
+   {
+    "word": "beard",
+    "rhyme": "EE"
+   },
+   {
+    "word": "beau",
+    "rhyme": "O "
+   },
+   {
+    "word": "beer",
+    "rhyme": "Er"
+   },
+   {
+    "word": "belle",
+    "rhyme": "el"
+   },
+   {
+    "word": "big",
+    "rhyme": "ig"
+   },
+   {
+    "word": "bisque",
+    "rhyme": "iW"
+   },
+   {
+    "word": "bitch",
+    "rhyme": "iC"
+   },
+   {
+    "word": "blab",
+    "rhyme": "ab"
+   },
+   {
+    "word": "black",
+    "rhyme": "ac"
+   },
+   {
+    "word": "blah",
+    "rhyme": "o "
+   },
+   {
+    "word": "bleach",
+    "rhyme": "EC"
+   },
+   {
+    "word": "blends",
+    "rhyme": "eH"
+   },
+   {
+    "word": "blight",
+    "rhyme": "It"
+   },
+   {
+    "word": "blob",
+    "rhyme": "ob"
+   },
+   {
+    "word": "blonde",
+    "rhyme": "oH"
+   },
+   {
+    "word": "blotch",
+    "rhyme": "oC"
+   },
+   {
+    "word": "blue",
+    "rhyme": "U "
+   },
+   {
+    "word": "boiled",
+    "rhyme": "yD"
+   },
+   {
+    "word": "bold",
+    "rhyme": "OD"
+   },
+   {
+    "word": "bomb",
+    "rhyme": "om"
+   },
+   {
+    "word": "bonk",
+    "rhyme": "oF"
+   },
+   {
+    "word": "boor",
+    "rhyme": "Ur"
+   },
+   {
+    "word": "bore",
+    "rhyme": "Or"
+   },
+   {
+    "word": "botch",
+    "rhyme": "oC"
+   },
+   {
+    "word": "bounce",
+    "rhyme": "wJ"
+   },
+   {
+    "word": "brash",
+    "rhyme": "aA"
+   },
+   {
+    "word": "breadth",
+    "rhyme": "ed"
+   },
+   {
+    "word": "break",
+    "rhyme": "Ac"
+   },
+   {
+    "word": "brood",
+    "rhyme": "Ud"
+   },
+   {
+    "word": "brunch",
+    "rhyme": "uV"
+   },
+   {
+    "word": "brusque",
+    "rhyme": "uW"
+   },
+   {
+    "word": "bull",
+    "rhyme": "ul"
+   },
+   {
+    "word": "bum",
+    "rhyme": "um"
+   },
+   {
+    "word": "burp",
+    "rhyme": "rp"
+   },
+   {
+    "word": "burst",
+    "rhyme": "rB"
+   },
+   {
+    "word": "butts",
+    "rhyme": "uM"
+   },
+   {
+    "word": "buzz",
+    "rhyme": "us"
+   },
+   {
+    "word": "byte",
+    "rhyme": "It"
+   },
+   {
+    "word": "calm",
+    "rhyme": "om"
+   },
+   {
+    "word": "case",
+    "rhyme": "As"
+   },
+   {
+    "word": "cat",
+    "rhyme": "at"
+   },
+   {
+    "word": "cause",
+    "rhyme": "oz"
+   },
+   {
+    "word": "cent",
+    "rhyme": "eG"
+   },
+   {
+    "word": "chain",
+    "rhyme": "An"
+   },
+   {
+    "word": "champ",
+    "rhyme": "aK"
+   },
+   {
+    "word": "change",
+    "rhyme": "AY"
+   },
+   {
+    "word": "chant",
+    "rhyme": "aG"
+   },
+   {
+    "word": "charm",
+    "rhyme": "oQ"
+   },
+   {
+    "word": "chat",
+    "rhyme": "at"
+   },
+   {
+    "word": "cheese",
+    "rhyme": "Ez"
+   },
+   {
+    "word": "chew",
+    "rhyme": "U "
+   },
+   {
+    "word": "chirp",
+    "rhyme": "rp"
+   },
+   {
+    "word": "choir",
+    "rhyme": "Ir"
+   },
+   {
+    "word": "chord",
+    "rhyme": "OE"
+   },
+   {
+    "word": "churn",
+    "rhyme": "rn"
+   },
+   {
+    "word": "clamp",
+    "rhyme": "aK"
+   },
+   {
+    "word": "clean",
+    "rhyme": "En"
+   },
+   {
+    "word": "cleft",
+    "rhyme": "eZ"
+   },
+   {
+    "word": "clench",
+    "rhyme": "eV"
+   },
+   {
+    "word": "clipped",
+    "rhyme": "iS"
+   },
+   {
+    "word": "clock",
+    "rhyme": "oc"
+   },
+   {
+    "word": "clog",
+    "rhyme": "og"
+   },
+   {
+    "word": "clomp",
+    "rhyme": "oK"
+   },
+   {
+    "word": "clot",
+    "rhyme": "ot"
+   },
+   {
+    "word": "clout",
+    "rhyme": "wt"
+   },
+   {
+    "word": "cloy",
+    "rhyme": "y "
+   },
+   {
+    "word": "clue",
+    "rhyme": "U "
+   },
+   {
+    "word": "clump",
+    "rhyme": "uK"
+   },
+   {
+    "word": "clutch",
+    "rhyme": "uC"
+   },
+   {
+    "word": "coarse",
+    "rhyme": "OX"
+   },
+   {
+    "word": "coil",
+    "rhyme": "yl"
+   },
+   {
+    "word": "coiled",
+    "rhyme": "yD"
+   },
+   {
+    "word": "coin",
+    "rhyme": "yn"
+   },
+   {
+    "word": "coke",
+    "rhyme": "Oc"
+   },
+   {
+    "word": "cold",
+    "rhyme": "OD"
+   },
+   {
+    "word": "conned",
+    "rhyme": "oH"
+   },
+   {
+    "word": "core",
+    "rhyme": "Or"
+   },
+   {
+    "word": "corpse",
+    "rhyme": "OR"
+   },
+   {
+    "word": "coughed",
+    "rhyme": "oZ"
+   },
+   {
+    "word": "coup",
+    "rhyme": "U "
+   },
+   {
+    "word": "cowl",
+    "rhyme": "wl"
+   },
+   {
+    "word": "crank",
+    "rhyme": "aF"
+   },
+   {
+    "word": "crave",
+    "rhyme": "Av"
+   },
+   {
+    "word": "cringe",
+    "rhyme": "iY"
+   },
+   {
+    "word": "cringe",
+    "rhyme": "og"
+   },
+   {
+    "word": "crisp",
+    "rhyme": "iU"
+   },
+   {
+    "word": "crock",
+    "rhyme": "oc"
+   },
+   {
+    "word": "crook",
+    "rhyme": "uc"
+   },
+   {
+    "word": "cross",
+    "rhyme": "os"
+   },
+   {
+    "word": "crotch",
+    "rhyme": "oC"
+   },
+   {
+    "word": "crowd",
+    "rhyme": "wd"
+   },
+   {
+    "word": "crude",
+    "rhyme": "Ud"
+   },
+   {
+    "word": "crunch",
+    "rhyme": "uV"
+   },
+   {
+    "word": "crutch",
+    "rhyme": "uC"
+   },
+   {
+    "word": "crux",
+    "rhyme": "ux"
+   },
+   {
+    "word": "cult",
+    "rhyme": "uT"
+   },
+   {
+    "word": "cultured",
+    "rhyme": "u "
+   },
+   {
+    "word": "cute",
+    "rhyme": "Ut"
+   },
+   {
+    "word": "cyst",
+    "rhyme": "iB"
+   },
+   {
+    "word": "dance",
+    "rhyme": "aJ"
+   },
+   {
+    "word": "dank",
+    "rhyme": "aF"
+   },
+   {
+    "word": "deaf",
+    "rhyme": "ef"
+   },
+   {
+    "word": "debt",
+    "rhyme": "et"
+   },
+   {
+    "word": "dense",
+    "rhyme": "eJ"
+   },
+   {
+    "word": "depth",
+    "rhyme": "ef"
+   },
+   {
+    "word": "dim",
+    "rhyme": "im"
+   },
+   {
+    "word": "dish",
+    "rhyme": "iA"
+   },
+   {
+    "word": "dog",
+    "rhyme": "og"
+   },
+   {
+    "word": "dope",
+    "rhyme": "Op"
+   },
+   {
+    "word": "dose",
+    "rhyme": "Oz"
+   },
+   {
+    "word": "doubt",
+    "rhyme": "wt"
+   },
+   {
+    "word": "drained",
+    "rhyme": "AH"
+   },
+   {
+    "word": "dream",
+    "rhyme": "Em"
+   },
+   {
+    "word": "drip",
+    "rhyme": "ip"
+   },
+   {
+    "word": "droll",
+    "rhyme": "Ol"
+   },
+   {
+    "word": "drool",
+    "rhyme": "Ul"
+   },
+   {
+    "word": "drop",
+    "rhyme": "op"
+   },
+   {
+    "word": "drowse",
+    "rhyme": "wz"
+   },
+   {
+    "word": "drugs",
+    "rhyme": "ug"
+   },
+   {
+    "word": "dull",
+    "rhyme": "ul"
+   },
+   {
+    "word": "dump",
+    "rhyme": "uK"
+   },
+   {
+    "word": "dunce",
+    "rhyme": "uJ"
+   },
+   {
+    "word": "dwim",
+    "rhyme": "im"
+   },
+   {
+    "word": "ends",
+    "rhyme": "eH"
+   },
+   {
+    "word": "face",
+    "rhyme": "As"
+   },
+   {
+    "word": "faint",
+    "rhyme": "AG"
+   },
+   {
+    "word": "fame",
+    "rhyme": "Am"
+   },
+   {
+    "word": "fat",
+    "rhyme": "at"
+   },
+   {
+    "word": "feared",
+    "rhyme": "EE"
+   },
+   {
+    "word": "feast",
+    "rhyme": "EB"
+   },
+   {
+    "word": "feigned",
+    "rhyme": "AH"
+   },
+   {
+    "word": "fink",
+    "rhyme": "iF"
+   },
+   {
+    "word": "fire",
+    "rhyme": "Ir"
+   },
+   {
+    "word": "firm",
+    "rhyme": "rm"
+   },
+   {
+    "word": "fish",
+    "rhyme": "iA"
+   },
+   {
+    "word": "flack",
+    "rhyme": "ac"
+   },
+   {
+    "word": "flank",
+    "rhyme": "aF"
+   },
+   {
+    "word": "flapped",
+    "rhyme": "aS"
+   },
+   {
+    "word": "flawed",
+    "rhyme": "od"
+   },
+   {
+    "word": "flesh",
+    "rhyme": "eA"
+   },
+   {
+    "word": "flipped",
+    "rhyme": "iS"
+   },
+   {
+    "word": "fluke",
+    "rhyme": "Uc"
+   },
+   {
+    "word": "flush",
+    "rhyme": "uA"
+   },
+   {
+    "word": "flux",
+    "rhyme": "ux"
+   },
+   {
+    "word": "folk",
+    "rhyme": "Oc"
+   },
+   {
+    "word": "foo",
+    "rhyme": "U "
+   },
+   {
+    "word": "food",
+    "rhyme": "Ud"
+   },
+   {
+    "word": "force",
+    "rhyme": "OX"
+   },
+   {
+    "word": "foul",
+    "rhyme": "wl"
+   },
+   {
+    "word": "fraught",
+    "rhyme": "ot"
+   },
+   {
+    "word": "fray",
+    "rhyme": "A "
+   },
+   {
+    "word": "freeze",
+    "rhyme": "Ez"
+   },
+   {
+    "word": "fried",
+    "rhyme": "Id"
+   },
+   {
+    "word": "friends",
+    "rhyme": "eH"
+   },
+   {
+    "word": "fruit",
+    "rhyme": "Ut"
+   },
+   {
+    "word": "funk",
+    "rhyme": "uF"
+   },
+   {
+    "word": "gaffe",
+    "rhyme": "af"
+   },
+   {
+    "word": "gain",
+    "rhyme": "An"
+   },
+   {
+    "word": "game",
+    "rhyme": "Am"
+   },
+   {
+    "word": "gape",
+    "rhyme": "Ap"
+   },
+   {
+    "word": "gas",
+    "rhyme": "as"
+   },
+   {
+    "word": "gauche",
+    "rhyme": "eA"
+   },
+   {
+    "word": "gawk",
+    "rhyme": "oc"
+   },
+   {
+    "word": "germ",
+    "rhyme": "rm"
+   },
+   {
+    "word": "glaze",
+    "rhyme": "Az"
+   },
+   {
+    "word": "glee",
+    "rhyme": "E "
+   },
+   {
+    "word": "globe",
+    "rhyme": "Ob"
+   },
+   {
+    "word": "gnarl",
+    "rhyme": "ol"
+   },
+   {
+    "word": "gnash",
+    "rhyme": "aA"
+   },
+   {
+    "word": "goal",
+    "rhyme": "Ol"
+   },
+   {
+    "word": "goose",
+    "rhyme": "Us"
+   },
+   {
+    "word": "grasp",
+    "rhyme": "aU"
+   },
+   {
+    "word": "grass",
+    "rhyme": "as"
+   },
+   {
+    "word": "grave",
+    "rhyme": "Av"
+   },
+   {
+    "word": "grease",
+    "rhyme": "Es"
+   },
+   {
+    "word": "greed",
+    "rhyme": "Ed"
+   },
+   {
+    "word": "grope",
+    "rhyme": "Op"
+   },
+   {
+    "word": "gross",
+    "rhyme": "Oz"
+   },
+   {
+    "word": "group",
+    "rhyme": "Up"
+   },
+   {
+    "word": "grouse",
+    "rhyme": "ws"
+   },
+   {
+    "word": "grunts",
+    "rhyme": "uJ"
+   },
+   {
+    "word": "guts",
+    "rhyme": "uM"
+   },
+   {
+    "word": "gyp",
+    "rhyme": "ip"
+   },
+   {
+    "word": "harm",
+    "rhyme": "oQ"
+   },
+   {
+    "word": "hawk",
+    "rhyme": "oc"
+   },
+   {
+    "word": "heap",
+    "rhyme": "Ep"
+   },
+   {
+    "word": "hearse",
+    "rhyme": "rX"
+   },
+   {
+    "word": "heat",
+    "rhyme": "Et"
+   },
+   {
+    "word": "hemp",
+    "rhyme": "eK"
+   },
+   {
+    "word": "hex",
+    "rhyme": "ex"
+   },
+   {
+    "word": "high",
+    "rhyme": "I "
+   },
+   {
+    "word": "him",
+    "rhyme": "im"
+   },
+   {
+    "word": "hinge",
+    "rhyme": "iY"
+   },
+   {
+    "word": "hoard",
+    "rhyme": "OE"
+   },
+   {
+    "word": "horse",
+    "rhyme": "OX"
+   },
+   {
+    "word": "hot",
+    "rhyme": "ot"
+   },
+   {
+    "word": "huge",
+    "rhyme": "Uj"
+   },
+   {
+    "word": "hump",
+    "rhyme": "uK"
+   },
+   {
+    "word": "hunch",
+    "rhyme": "uV"
+   },
+   {
+    "word": "hushed",
+    "rhyme": "ud"
+   },
+   {
+    "word": "ice",
+    "rhyme": "Is"
+   },
+   {
+    "word": "jazz",
+    "rhyme": "as"
+   },
+   {
+    "word": "jerk",
+    "rhyme": "rO"
+   },
+   {
+    "word": "job",
+    "rhyme": "ob"
+   },
+   {
+    "word": "joy",
+    "rhyme": "y "
+   },
+   {
+    "word": "juiced",
+    "rhyme": "UB"
+   },
+   {
+    "word": "junk",
+    "rhyme": "uF"
+   },
+   {
+    "word": "kitsch",
+    "rhyme": "iC"
+   },
+   {
+    "word": "kludge",
+    "rhyme": "Uj"
+   },
+   {
+    "word": "knife",
+    "rhyme": "If"
+   },
+   {
+    "word": "knish",
+    "rhyme": "iA"
+   },
+   {
+    "word": "lake",
+    "rhyme": "Ac"
+   },
+   {
+    "word": "lame",
+    "rhyme": "Am"
+   },
+   {
+    "word": "lapse",
+    "rhyme": "aR"
+   },
+   {
+    "word": "laugh",
+    "rhyme": "af"
+   },
+   {
+    "word": "lax",
+    "rhyme": "ax"
+   },
+   {
+    "word": "leash",
+    "rhyme": "EA"
+   },
+   {
+    "word": "left",
+    "rhyme": "eZ"
+   },
+   {
+    "word": "lewd",
+    "rhyme": "Ud"
+   },
+   {
+    "word": "light",
+    "rhyme": "It"
+   },
+   {
+    "word": "lisp",
+    "rhyme": "iU"
+   },
+   {
+    "word": "lobe",
+    "rhyme": "Ob"
+   },
+   {
+    "word": "long",
+    "rhyme": "oI"
+   },
+   {
+    "word": "loose",
+    "rhyme": "Us"
+   },
+   {
+    "word": "loot",
+    "rhyme": "Ut"
+   },
+   {
+    "word": "lose",
+    "rhyme": "Uz"
+   },
+   {
+    "word": "love",
+    "rhyme": "uv"
+   },
+   {
+    "word": "lump",
+    "rhyme": "uK"
+   },
+   {
+    "word": "mark",
+    "rhyme": "oO"
+   },
+   {
+    "word": "mash",
+    "rhyme": "aA"
+   },
+   {
+    "word": "masks",
+    "rhyme": "aW"
+   },
+   {
+    "word": "mesh",
+    "rhyme": "eA"
+   },
+   {
+    "word": "mess",
+    "rhyme": "es"
+   },
+   {
+    "word": "mince",
+    "rhyme": "iJ"
+   },
+   {
+    "word": "missed",
+    "rhyme": "iB"
+   },
+   {
+    "word": "moan",
+    "rhyme": "On"
+   },
+   {
+    "word": "monk",
+    "rhyme": "uF"
+   },
+   {
+    "word": "more",
+    "rhyme": "Or"
+   },
+   {
+    "word": "mound",
+    "rhyme": "wH"
+   },
+   {
+    "word": "much",
+    "rhyme": "uC"
+   },
+   {
+    "word": "mugs",
+    "rhyme": "ug"
+   },
+   {
+    "word": "munge",
+    "rhyme": "uY"
+   },
+   {
+    "word": "murk",
+    "rhyme": "rO"
+   },
+   {
+    "word": "mush",
+    "rhyme": "uA"
+   },
+   {
+    "word": "nark",
+    "rhyme": "oO"
+   },
+   {
+    "word": "nerve",
+    "rhyme": "rv"
+   },
+   {
+    "word": "new",
+    "rhyme": "U "
+   },
+   {
+    "word": "news",
+    "rhyme": "Uz"
+   },
+   {
+    "word": "night",
+    "rhyme": "It"
+   },
+   {
+    "word": "nude",
+    "rhyme": "Ud"
+   },
+   {
+    "word": "nuke",
+    "rhyme": "Uc"
+   },
+   {
+    "word": "null",
+    "rhyme": "ul"
+   },
+   {
+    "word": "nun",
+    "rhyme": "un"
+   },
+   {
+    "word": "nuts",
+    "rhyme": "uM"
+   },
+   {
+    "word": "nymph",
+    "rhyme": "if"
+   },
+   {
+    "word": "oil",
+    "rhyme": "yl"
+   },
+   {
+    "word": "ouch",
+    "rhyme": "wC"
+   },
+   {
+    "word": "pain",
+    "rhyme": "An"
+   },
+   {
+    "word": "pants",
+    "rhyme": "aJ"
+   },
+   {
+    "word": "pause",
+    "rhyme": "oz"
+   },
+   {
+    "word": "pave",
+    "rhyme": "Av"
+   },
+   {
+    "word": "pawn",
+    "rhyme": "on"
+   },
+   {
+    "word": "peace",
+    "rhyme": "Es"
+   },
+   {
+    "word": "peach",
+    "rhyme": "EC"
+   },
+   {
+    "word": "pen",
+    "rhyme": "en"
+   },
+   {
+    "word": "phase",
+    "rhyme": "Az"
+   },
+   {
+    "word": "pig",
+    "rhyme": "ig"
+   },
+   {
+    "word": "pile",
+    "rhyme": "Il"
+   },
+   {
+    "word": "pimp",
+    "rhyme": "iK"
+   },
+   {
+    "word": "pink",
+    "rhyme": "iF"
+   },
+   {
+    "word": "pipes",
+    "rhyme": "IR"
+   },
+   {
+    "word": "pissed",
+    "rhyme": "iB"
+   },
+   {
+    "word": "plague",
+    "rhyme": "Ag"
+   },
+   {
+    "word": "plaid",
+    "rhyme": "ad"
+   },
+   {
+    "word": "plunge",
+    "rhyme": "uY"
+   },
+   {
+    "word": "plush",
+    "rhyme": "uA"
+   },
+   {
+    "word": "pond",
+    "rhyme": "oH"
+   },
+   {
+    "word": "pork",
+    "rhyme": "rO"
+   },
+   {
+    "word": "porn",
+    "rhyme": "O$"
+   },
+   {
+    "word": "pounce",
+    "rhyme": "wJ"
+   },
+   {
+    "word": "prank",
+    "rhyme": "aF"
+   },
+   {
+    "word": "prone",
+    "rhyme": "On"
+   },
+   {
+    "word": "punk",
+    "rhyme": "uF"
+   },
+   {
+    "word": "punt",
+    "rhyme": "uG"
+   },
+   {
+    "word": "pure",
+    "rhyme": "Ur"
+   },
+   {
+    "word": "quack",
+    "rhyme": "ac"
+   },
+   {
+    "word": "queue",
+    "rhyme": "U "
+   },
+   {
+    "word": "raced",
+    "rhyme": "AB"
+   },
+   {
+    "word": "rag",
+    "rhyme": "ag"
+   },
+   {
+    "word": "rape",
+    "rhyme": "Ap"
+   },
+   {
+    "word": "rapt",
+    "rhyme": "aS"
+   },
+   {
+    "word": "rash",
+    "rhyme": "aA"
+   },
+   {
+    "word": "rasp",
+    "rhyme": "aU"
+   },
+   {
+    "word": "raw",
+    "rhyme": "o "
+   },
+   {
+    "word": "rent",
+    "rhyme": "eG"
+   },
+   {
+    "word": "rift",
+    "rhyme": "iZ"
+   },
+   {
+    "word": "rim",
+    "rhyme": "im"
+   },
+   {
+    "word": "ripped",
+    "rhyme": "iS"
+   },
+   {
+    "word": "risk",
+    "rhyme": "iW"
+   },
+   {
+    "word": "rot",
+    "rhyme": "ot"
+   },
+   {
+    "word": "roughed",
+    "rhyme": "uZ"
+   },
+   {
+    "word": "rude",
+    "rhyme": "Ud"
+   },
+   {
+    "word": "sacked",
+    "rhyme": "aP"
+   },
+   {
+    "word": "sad",
+    "rhyme": "ad"
+   },
+   {
+    "word": "salt",
+    "rhyme": "oT"
+   },
+   {
+    "word": "same",
+    "rhyme": "Am"
+   },
+   {
+    "word": "saps",
+    "rhyme": "aR"
+   },
+   {
+    "word": "sawn",
+    "rhyme": "on"
+   },
+   {
+    "word": "scab",
+    "rhyme": "ab"
+   },
+   {
+    "word": "scoff",
+    "rhyme": "of"
+   },
+   {
+    "word": "sense",
+    "rhyme": "eJ"
+   },
+   {
+    "word": "shame",
+    "rhyme": "Am"
+   },
+   {
+    "word": "sheep",
+    "rhyme": "Ep"
+   },
+   {
+    "word": "shook",
+    "rhyme": "uc"
+   },
+   {
+    "word": "shrewd",
+    "rhyme": "Ud"
+   },
+   {
+    "word": "shrimp",
+    "rhyme": "iK"
+   },
+   {
+    "word": "sick",
+    "rhyme": "ic"
+   },
+   {
+    "word": "since",
+    "rhyme": "iJ"
+   },
+   {
+    "word": "skim",
+    "rhyme": "im"
+   },
+   {
+    "word": "slack",
+    "rhyme": "ac"
+   },
+   {
+    "word": "slick",
+    "rhyme": "ic"
+   },
+   {
+    "word": "slob",
+    "rhyme": "ob"
+   },
+   {
+    "word": "slouch",
+    "rhyme": "wC"
+   },
+   {
+    "word": "slurp",
+    "rhyme": "rp"
+   },
+   {
+    "word": "smeared",
+    "rhyme": "EE"
+   },
+   {
+    "word": "smell",
+    "rhyme": "el"
+   },
+   {
+    "word": "snort",
+    "rhyme": "ON"
+   },
+   {
+    "word": "soft",
+    "rhyme": "oZ"
+   },
+   {
+    "word": "soiled",
+    "rhyme": "yD"
+   },
+   {
+    "word": "song",
+    "rhyme": "oI"
+   },
+   {
+    "word": "source",
+    "rhyme": "OX"
+   },
+   {
+    "word": "souse",
+    "rhyme": "ws"
+   },
+   {
+    "word": "south",
+    "rhyme": "wL"
+   },
+   {
+    "word": "speared",
+    "rhyme": "EE"
+   },
+   {
+    "word": "splayed",
+    "rhyme": "Ad"
+   },
+   {
+    "word": "spoil",
+    "rhyme": "yl"
+   },
+   {
+    "word": "sponge",
+    "rhyme": "uY"
+   },
+   {
+    "word": "sport",
+    "rhyme": "ON"
+   },
+   {
+    "word": "square",
+    "rhyme": "Ar"
+   },
+   {
+    "word": "staff",
+    "rhyme": "af"
+   },
+   {
+    "word": "stained",
+    "rhyme": "AH"
+   },
+   {
+    "word": "stench",
+    "rhyme": "eV"
+   },
+   {
+    "word": "stiffed",
+    "rhyme": "eZ"
+   },
+   {
+    "word": "stomp",
+    "rhyme": "oK"
+   },
+   {
+    "word": "storm",
+    "rhyme": "OQ"
+   },
+   {
+    "word": "strange",
+    "rhyme": "AY"
+   },
+   {
+    "word": "stress",
+    "rhyme": "es"
+   },
+   {
+    "word": "strife",
+    "rhyme": "If"
+   },
+   {
+    "word": "stuffed",
+    "rhyme": "uZ"
+   },
+   {
+    "word": "stun",
+    "rhyme": "un"
+   },
+   {
+    "word": "such",
+    "rhyme": "uC"
+   },
+   {
+    "word": "suit",
+    "rhyme": "Ut"
+   },
+   {
+    "word": "sump",
+    "rhyme": "uK"
+   },
+   {
+    "word": "sun",
+    "rhyme": "un"
+   },
+   {
+    "word": "sure",
+    "rhyme": "Ur"
+   },
+   {
+    "word": "swim",
+    "rhyme": "im"
+   },
+   {
+    "word": "tacky",
+    "rhyme": "a "
+   },
+   {
+    "word": "taint",
+    "rhyme": "AG"
+   },
+   {
+    "word": "takeoff",
+    "rhyme": "A "
+   },
+   {
+    "word": "tasks",
+    "rhyme": "aW"
+   },
+   {
+    "word": "taste",
+    "rhyme": "AB"
+   },
+   {
+    "word": "tastless",
+    "rhyme": "A "
+   },
+   {
+    "word": "tawdry",
+    "rhyme": "o "
+   },
+   {
+    "word": "teach",
+    "rhyme": "EC"
+   },
+   {
+    "word": "team",
+    "rhyme": "Em"
+   },
+   {
+    "word": "tease",
+    "rhyme": "Ez"
+   },
+   {
+    "word": "tech",
+    "rhyme": "ec"
+   },
+   {
+    "word": "tense",
+    "rhyme": "eJ"
+   },
+   {
+    "word": "thief",
+    "rhyme": "Ef"
+   },
+   {
+    "word": "thrift",
+    "rhyme": "eZ"
+   },
+   {
+    "word": "thugs",
+    "rhyme": "ug"
+   },
+   {
+    "word": "toy",
+    "rhyme": "y "
+   },
+   {
+    "word": "trapped",
+    "rhyme": "aS"
+   },
+   {
+    "word": "trash",
+    "rhyme": "aA"
+   },
+   {
+    "word": "trees",
+    "rhyme": "Ez"
+   },
+   {
+    "word": "trends",
+    "rhyme": "eH"
+   },
+   {
+    "word": "trim",
+    "rhyme": "im"
+   },
+   {
+    "word": "tripe",
+    "rhyme": "Ip"
+   },
+   {
+    "word": "true",
+    "rhyme": "U "
+   },
+   {
+    "word": "tuft",
+    "rhyme": "uZ"
+   },
+   {
+    "word": "twerp",
+    "rhyme": "rp"
+   },
+   {
+    "word": "unborn",
+    "rhyme": "O$"
+   },
+   {
+    "word": "void",
+    "rhyme": "yd"
+   },
+   {
+    "word": "wag",
+    "rhyme": "ag"
+   },
+   {
+    "word": "warps",
+    "rhyme": "OR"
+   },
+   {
+    "word": "waste",
+    "rhyme": "AB"
+   },
+   {
+    "word": "wax",
+    "rhyme": "ax"
+   },
+   {
+    "word": "weird",
+    "rhyme": "EE"
+   },
+   {
+    "word": "wet",
+    "rhyme": "et"
+   },
+   {
+    "word": "work",
+    "rhyme": "rO"
+   },
+   {
+    "word": "worm",
+    "rhyme": "rm"
+   },
+   {
+    "word": "worse",
+    "rhyme": "rX"
+   },
+   {
+    "word": "wow",
+    "rhyme": "w "
+   },
+   {
+    "word": "wreck",
+    "rhyme": "ec"
+   },
+   {
+    "word": "wrecks",
+    "rhyme": "ex"
+   },
+   {
+    "word": "wrench",
+    "rhyme": "eV"
+   },
+   {
+    "word": "wrong",
+    "rhyme": "oI"
+   },
+   {
+    "word": "yawn",
+    "rhyme": "on"
+   },
+   {
+    "word": "yolk",
+    "rhyme": "Oc"
+   },
+   {
+    "word": "zapped",
+    "rhyme": "aS"
+   },
+   {
+    "word": "zip",
+    "rhyme": "ip"
+   },
+   {
+    "word": "zoo",
+    "rhyme": "U "
+   }
+  ]
+ },
+ "FT_IF": {
+  "resource_id": 130,
+  "count": 166,
+  "words": [
+   {
+    "word": "abduct",
+    "rhyme": "uP"
+   },
+   {
+    "word": "abhorred",
+    "rhyme": "od"
+   },
+   {
+    "word": "ablaze",
+    "rhyme": "Az"
+   },
+   {
+    "word": "abort",
+    "rhyme": "ON"
+   },
+   {
+    "word": "above",
+    "rhyme": "uv"
+   },
+   {
+    "word": "abrupt",
+    "rhyme": "ut"
+   },
+   {
+    "word": "absurd",
+    "rhyme": "rE"
+   },
+   {
+    "word": "abuse",
+    "rhyme": "Uz"
+   },
+   {
+    "word": "abyss",
+    "rhyme": "is"
+   },
+   {
+    "word": "acclaim",
+    "rhyme": "Am"
+   },
+   {
+    "word": "acute",
+    "rhyme": "Ut"
+   },
+   {
+    "word": "ado",
+    "rhyme": "U "
+   },
+   {
+    "word": "adore",
+    "rhyme": "Or"
+   },
+   {
+    "word": "adrift",
+    "rhyme": "it"
+   },
+   {
+    "word": "again",
+    "rhyme": "en"
+   },
+   {
+    "word": "aghast",
+    "rhyme": "aB"
+   },
+   {
+    "word": "agreed",
+    "rhyme": "Ed"
+   },
+   {
+    "word": "alarm",
+    "rhyme": "oQ"
+   },
+   {
+    "word": "aloof",
+    "rhyme": "Uf"
+   },
+   {
+    "word": "amaze",
+    "rhyme": "Az"
+   },
+   {
+    "word": "amongst",
+    "rhyme": "oB"
+   },
+   {
+    "word": "annoys",
+    "rhyme": "ys"
+   },
+   {
+    "word": "antique",
+    "rhyme": "Ec"
+   },
+   {
+    "word": "apart",
+    "rhyme": "oN"
+   },
+   {
+    "word": "appall",
+    "rhyme": "ol"
+   },
+   {
+    "word": "appeal",
+    "rhyme": "El"
+   },
+   {
+    "word": "arrange",
+    "rhyme": "AY"
+   },
+   {
+    "word": "assuage",
+    "rhyme": "og"
+   },
+   {
+    "word": "astound",
+    "rhyme": "wH"
+   },
+   {
+    "word": "attacks",
+    "rhyme": "ax"
+   },
+   {
+    "word": "attempt",
+    "rhyme": "eK"
+   },
+   {
+    "word": "attest",
+    "rhyme": "eB"
+   },
+   {
+    "word": "averse",
+    "rhyme": "rX"
+   },
+   {
+    "word": "awash",
+    "rhyme": "oA"
+   },
+   {
+    "word": "baboon",
+    "rhyme": "Un"
+   },
+   {
+    "word": "barrage",
+    "rhyme": "og"
+   },
+   {
+    "word": "become",
+    "rhyme": "um"
+   },
+   {
+    "word": "bedimmed",
+    "rhyme": "id"
+   },
+   {
+    "word": "beget",
+    "rhyme": "et"
+   },
+   {
+    "word": "begin",
+    "rhyme": "in"
+   },
+   {
+    "word": "beguile",
+    "rhyme": "Il"
+   },
+   {
+    "word": "behold",
+    "rhyme": "OD"
+   },
+   {
+    "word": "bereave",
+    "rhyme": "Ev"
+   },
+   {
+    "word": "berserk",
+    "rhyme": "rO"
+   },
+   {
+    "word": "blockade",
+    "rhyme": "Ad"
+   },
+   {
+    "word": "bouquet",
+    "rhyme": "e "
+   },
+   {
+    "word": "buffoon",
+    "rhyme": "Un"
+   },
+   {
+    "word": "cafe",
+    "rhyme": "A "
+   },
+   {
+    "word": "caprice",
+    "rhyme": "Es"
+   },
+   {
+    "word": "careen",
+    "rhyme": "En"
+   },
+   {
+    "word": "carouse",
+    "rhyme": "wz"
+   },
+   {
+    "word": "carte blanche",
+    "rhyme": "oA"
+   },
+   {
+    "word": "cascade",
+    "rhyme": "Ad"
+   },
+   {
+    "word": "cassette",
+    "rhyme": "et"
+   },
+   {
+    "word": "chagrin",
+    "rhyme": "in"
+   },
+   {
+    "word": "champagne",
+    "rhyme": "An"
+   },
+   {
+    "word": "chemise",
+    "rhyme": "Ez"
+   },
+   {
+    "word": "cocaine",
+    "rhyme": "An"
+   },
+   {
+    "word": "coerce",
+    "rhyme": "rX"
+   },
+   {
+    "word": "cohere",
+    "rhyme": "E "
+   },
+   {
+    "word": "collapse",
+    "rhyme": "aR"
+   },
+   {
+    "word": "collude",
+    "rhyme": "Ud"
+   },
+   {
+    "word": "combine",
+    "rhyme": "In"
+   },
+   {
+    "word": "commit",
+    "rhyme": "it"
+   },
+   {
+    "word": "compare",
+    "rhyme": "Ar"
+   },
+   {
+    "word": "compel",
+    "rhyme": "el"
+   },
+   {
+    "word": "compile",
+    "rhyme": "Il"
+   },
+   {
+    "word": "complex",
+    "rhyme": "ex"
+   },
+   {
+    "word": "compute",
+    "rhyme": "Ut"
+   },
+   {
+    "word": "conceit",
+    "rhyme": "Et"
+   },
+   {
+    "word": "condemn",
+    "rhyme": "em"
+   },
+   {
+    "word": "condone",
+    "rhyme": "On"
+   },
+   {
+    "word": "confine",
+    "rhyme": "In"
+   },
+   {
+    "word": "confront",
+    "rhyme": "uG"
+   },
+   {
+    "word": "connect",
+    "rhyme": "eP"
+   },
+   {
+    "word": "connote",
+    "rhyme": "Ot"
+   },
+   {
+    "word": "consign",
+    "rhyme": "In"
+   },
+   {
+    "word": "conspire",
+    "rhyme": "Ir"
+   },
+   {
+    "word": "construe",
+    "rhyme": "U "
+   },
+   {
+    "word": "contends",
+    "rhyme": "eH"
+   },
+   {
+    "word": "corrupt",
+    "rhyme": "ut"
+   },
+   {
+    "word": "debris",
+    "rhyme": "E "
+   },
+   {
+    "word": "decay",
+    "rhyme": "A "
+   },
+   {
+    "word": "deceit",
+    "rhyme": "Et"
+   },
+   {
+    "word": "decrypt",
+    "rhyme": "iS"
+   },
+   {
+    "word": "default",
+    "rhyme": "oT"
+   },
+   {
+    "word": "defeat",
+    "rhyme": "Et"
+   },
+   {
+    "word": "deform",
+    "rhyme": "OQ"
+   },
+   {
+    "word": "defrocked",
+    "rhyme": "oc"
+   },
+   {
+    "word": "defunct",
+    "rhyme": "uP"
+   },
+   {
+    "word": "degrade",
+    "rhyme": "Ad"
+   },
+   {
+    "word": "deject",
+    "rhyme": "eP"
+   },
+   {
+    "word": "demure",
+    "rhyme": "Ur"
+   },
+   {
+    "word": "deride",
+    "rhyme": "Id"
+   },
+   {
+    "word": "design",
+    "rhyme": "In"
+   },
+   {
+    "word": "despair",
+    "rhyme": "Ar"
+   },
+   {
+    "word": "despite",
+    "rhyme": "It"
+   },
+   {
+    "word": "destroy",
+    "rhyme": "y "
+   },
+   {
+    "word": "devoid",
+    "rhyme": "yd"
+   },
+   {
+    "word": "disdain",
+    "rhyme": "An"
+   },
+   {
+    "word": "effect",
+    "rhyme": "eP"
+   },
+   {
+    "word": "effete",
+    "rhyme": "Et"
+   },
+   {
+    "word": "elapse",
+    "rhyme": "aR"
+   },
+   {
+    "word": "embrace",
+    "rhyme": "As"
+   },
+   {
+    "word": "employ",
+    "rhyme": "y "
+   },
+   {
+    "word": "endow",
+    "rhyme": "w "
+   },
+   {
+    "word": "enthrall",
+    "rhyme": "ol"
+   },
+   {
+    "word": "equipped",
+    "rhyme": "iS"
+   },
+   {
+    "word": "exact",
+    "rhyme": "aP"
+   },
+   {
+    "word": "exempt",
+    "rhyme": "eK"
+   },
+   {
+    "word": "expel",
+    "rhyme": "el"
+   },
+   {
+    "word": "extract",
+    "rhyme": "aP"
+   },
+   {
+    "word": "extreme",
+    "rhyme": "Em"
+   },
+   {
+    "word": "facade",
+    "rhyme": "od"
+   },
+   {
+    "word": "haw haws",
+    "rhyme": "oz"
+   },
+   {
+    "word": "hurrah",
+    "rhyme": "o "
+   },
+   {
+    "word": "ignore",
+    "rhyme": "Or"
+   },
+   {
+    "word": "imbrue",
+    "rhyme": "U "
+   },
+   {
+    "word": "immense",
+    "rhyme": "eJ"
+   },
+   {
+    "word": "impale",
+    "rhyme": "Al"
+   },
+   {
+    "word": "impinge",
+    "rhyme": "iY"
+   },
+   {
+    "word": "inane",
+    "rhyme": "An"
+   },
+   {
+    "word": "inept",
+    "rhyme": "et"
+   },
+   {
+    "word": "infect",
+    "rhyme": "eP"
+   },
+   {
+    "word": "inject",
+    "rhyme": "eP"
+   },
+   {
+    "word": "insane",
+    "rhyme": "An"
+   },
+   {
+    "word": "insult",
+    "rhyme": "uT"
+   },
+   {
+    "word": "kerplonk",
+    "rhyme": "oF"
+   },
+   {
+    "word": "machine",
+    "rhyme": "En"
+   },
+   {
+    "word": "malaise",
+    "rhyme": "Az"
+   },
+   {
+    "word": "massage",
+    "rhyme": "og"
+   },
+   {
+    "word": "mature",
+    "rhyme": "Ur"
+   },
+   {
+    "word": "molest",
+    "rhyme": "eB"
+   },
+   {
+    "word": "oblique",
+    "rhyme": "Ec"
+   },
+   {
+    "word": "obscure",
+    "rhyme": "Ur"
+   },
+   {
+    "word": "occult",
+    "rhyme": "uT"
+   },
+   {
+    "word": "opaque",
+    "rhyme": "Ac"
+   },
+   {
+    "word": "ourselves",
+    "rhyme": "es"
+   },
+   {
+    "word": "parade",
+    "rhyme": "Ad"
+   },
+   {
+    "word": "perfume",
+    "rhyme": "Um"
+   },
+   {
+    "word": "perverse",
+    "rhyme": "rX"
+   },
+   {
+    "word": "petite",
+    "rhyme": "Et"
+   },
+   {
+    "word": "police",
+    "rhyme": "Es"
+   },
+   {
+    "word": "premier",
+    "rhyme": "Er"
+   },
+   {
+    "word": "rebirth",
+    "rhyme": "rL"
+   },
+   {
+    "word": "recoup",
+    "rhyme": "Up"
+   },
+   {
+    "word": "refined",
+    "rhyme": "IH"
+   },
+   {
+    "word": "remorse",
+    "rhyme": "OX"
+   },
+   {
+    "word": "repeat",
+    "rhyme": "Et"
+   },
+   {
+    "word": "reports",
+    "rhyme": "OM"
+   },
+   {
+    "word": "repute",
+    "rhyme": "Ut"
+   },
+   {
+    "word": "result",
+    "rhyme": "uT"
+   },
+   {
+    "word": "revolts",
+    "rhyme": "OM"
+   },
+   {
+    "word": "rewards",
+    "rhyme": "os"
+   },
+   {
+    "word": "robust",
+    "rhyme": "uB"
+   },
+   {
+    "word": "romance",
+    "rhyme": "aJ"
+   },
+   {
+    "word": "roulette",
+    "rhyme": "et"
+   },
+   {
+    "word": "routine",
+    "rhyme": "En"
+   },
+   {
+    "word": "sincere",
+    "rhyme": "Er"
+   },
+   {
+    "word": "success",
+    "rhyme": "es"
+   },
+   {
+    "word": "sustained",
+    "rhyme": "AH"
+   },
+   {
+    "word": "unbound",
+    "rhyme": "wH"
+   },
+   {
+    "word": "unfair",
+    "rhyme": "Ar"
+   },
+   {
+    "word": "unhinged",
+    "rhyme": "id"
+   },
+   {
+    "word": "unique",
+    "rhyme": "Ec"
+   },
+   {
+    "word": "without",
+    "rhyme": "wt"
+   }
+  ]
+ },
+ "FT_TF": {
+  "resource_id": 131,
+  "count": 739,
+  "words": [
+   {
+    "word": "Allah",
+    "rhyme": "o "
+   },
+   {
+    "word": "Bacchus",
+    "rhyme": "a "
+   },
+   {
+    "word": "Baja",
+    "rhyme": "o "
+   },
+   {
+    "word": "Bauhaus",
+    "rhyme": "a "
+   },
+   {
+    "word": "Berkeley",
+    "rhyme": "r "
+   },
+   {
+    "word": "Bible",
+    "rhyme": "I "
+   },
+   {
+    "word": "Boston",
+    "rhyme": "o "
+   },
+   {
+    "word": "British",
+    "rhyme": "i "
+   },
+   {
+    "word": "Cambridge",
+    "rhyme": "A "
+   },
+   {
+    "word": "Cobol",
+    "rhyme": "O "
+   },
+   {
+    "word": "Cronus",
+    "rhyme": "O "
+   },
+   {
+    "word": "Einstein",
+    "rhyme": "I "
+   },
+   {
+    "word": "Euro",
+    "rhyme": "U "
+   },
+   {
+    "word": "FIFO",
+    "rhyme": "I "
+   },
+   {
+    "word": "Gorby",
+    "rhyme": "i "
+   },
+   {
+    "word": "H bomb",
+    "rhyme": "A "
+   },
+   {
+    "word": "Harvard",
+    "rhyme": "o "
+   },
+   {
+    "word": "Irish",
+    "rhyme": "I "
+   },
+   {
+    "word": "Judas",
+    "rhyme": "U "
+   },
+   {
+    "word": "Latin",
+    "rhyme": "A "
+   },
+   {
+    "word": "Nazi",
+    "rhyme": "o "
+   },
+   {
+    "word": "Pyhrric",
+    "rhyme": "i "
+   },
+   {
+    "word": "Reagan",
+    "rhyme": "A "
+   },
+   {
+    "word": "Ronnie",
+    "rhyme": "o "
+   },
+   {
+    "word": "Russian",
+    "rhyme": "u "
+   },
+   {
+    "word": "Sanskrit",
+    "rhyme": "a "
+   },
+   {
+    "word": "Unix",
+    "rhyme": "U "
+   },
+   {
+    "word": "Yiddish",
+    "rhyme": "i "
+   },
+   {
+    "word": "acid",
+    "rhyme": "a "
+   },
+   {
+    "word": "acrid",
+    "rhyme": "a "
+   },
+   {
+    "word": "acting",
+    "rhyme": "a "
+   },
+   {
+    "word": "action",
+    "rhyme": "a "
+   },
+   {
+    "word": "actress",
+    "rhyme": "a "
+   },
+   {
+    "word": "aging",
+    "rhyme": "A "
+   },
+   {
+    "word": "air raid",
+    "rhyme": "A "
+   },
+   {
+    "word": "airline",
+    "rhyme": "A "
+   },
+   {
+    "word": "ambush",
+    "rhyme": "a "
+   },
+   {
+    "word": "ancient",
+    "rhyme": "A "
+   },
+   {
+    "word": "angry",
+    "rhyme": "a "
+   },
+   {
+    "word": "ankle",
+    "rhyme": "a "
+   },
+   {
+    "word": "answer",
+    "rhyme": "a "
+   },
+   {
+    "word": "anthem",
+    "rhyme": "a "
+   },
+   {
+    "word": "anxious",
+    "rhyme": "a "
+   },
+   {
+    "word": "archfool",
+    "rhyme": "o "
+   },
+   {
+    "word": "arrow",
+    "rhyme": "a "
+   },
+   {
+    "word": "artful",
+    "rhyme": "o "
+   },
+   {
+    "word": "arty",
+    "rhyme": "o "
+   },
+   {
+    "word": "asthma",
+    "rhyme": "a "
+   },
+   {
+    "word": "astral",
+    "rhyme": "a "
+   },
+   {
+    "word": "avid",
+    "rhyme": "a "
+   },
+   {
+    "word": "awful",
+    "rhyme": "o "
+   },
+   {
+    "word": "backcourt",
+    "rhyme": "a "
+   },
+   {
+    "word": "backlash",
+    "rhyme": "a "
+   },
+   {
+    "word": "backpack",
+    "rhyme": "a "
+   },
+   {
+    "word": "backwash",
+    "rhyme": "a "
+   },
+   {
+    "word": "badger",
+    "rhyme": "a "
+   },
+   {
+    "word": "badland",
+    "rhyme": "a "
+   },
+   {
+    "word": "baffle",
+    "rhyme": "a "
+   },
+   {
+    "word": "balance",
+    "rhyme": "a "
+   },
+   {
+    "word": "baldpate",
+    "rhyme": "o "
+   },
+   {
+    "word": "baleful",
+    "rhyme": "A "
+   },
+   {
+    "word": "balky",
+    "rhyme": "o "
+   },
+   {
+    "word": "balsa",
+    "rhyme": "o "
+   },
+   {
+    "word": "bankrupt",
+    "rhyme": "a "
+   },
+   {
+    "word": "banshee",
+    "rhyme": "a "
+   },
+   {
+    "word": "bareback",
+    "rhyme": "A "
+   },
+   {
+    "word": "barefaced",
+    "rhyme": "A "
+   },
+   {
+    "word": "barfly",
+    "rhyme": "o "
+   },
+   {
+    "word": "basal",
+    "rhyme": "A "
+   },
+   {
+    "word": "bathhouse",
+    "rhyme": "a "
+   },
+   {
+    "word": "beach blanket",
+    "rhyme": "E "
+   },
+   {
+    "word": "beatnik",
+    "rhyme": "E "
+   },
+   {
+    "word": "bebop",
+    "rhyme": "E "
+   },
+   {
+    "word": "bedsore",
+    "rhyme": "e "
+   },
+   {
+    "word": "beehive",
+    "rhyme": "E "
+   },
+   {
+    "word": "beggar",
+    "rhyme": "e "
+   },
+   {
+    "word": "belly",
+    "rhyme": "e "
+   },
+   {
+    "word": "benchmark",
+    "rhyme": "e "
+   },
+   {
+    "word": "bicep",
+    "rhyme": "I "
+   },
+   {
+    "word": "billion",
+    "rhyme": "i "
+   },
+   {
+    "word": "birdlike",
+    "rhyme": "r "
+   },
+   {
+    "word": "blabber",
+    "rhyme": "a "
+   },
+   {
+    "word": "blather",
+    "rhyme": "a "
+   },
+   {
+    "word": "blinkered",
+    "rhyme": "i "
+   },
+   {
+    "word": "bloodshot",
+    "rhyme": "u "
+   },
+   {
+    "word": "blotto",
+    "rhyme": "o "
+   },
+   {
+    "word": "blow-dried",
+    "rhyme": "O "
+   },
+   {
+    "word": "blowtorch",
+    "rhyme": "O "
+   },
+   {
+    "word": "bludgeon",
+    "rhyme": "u "
+   },
+   {
+    "word": "blue chip",
+    "rhyme": "U "
+   },
+   {
+    "word": "blueprint",
+    "rhyme": "U "
+   },
+   {
+    "word": "body",
+    "rhyme": "o "
+   },
+   {
+    "word": "boggle",
+    "rhyme": "o "
+   },
+   {
+    "word": "bombast",
+    "rhyme": "o "
+   },
+   {
+    "word": "bondage",
+    "rhyme": "o "
+   },
+   {
+    "word": "bonus",
+    "rhyme": "O "
+   },
+   {
+    "word": "bookish",
+    "rhyme": "u "
+   },
+   {
+    "word": "booster",
+    "rhyme": "U "
+   },
+   {
+    "word": "boozy",
+    "rhyme": "U "
+   },
+   {
+    "word": "boredom",
+    "rhyme": "O "
+   },
+   {
+    "word": "bratwurst",
+    "rhyme": "a "
+   },
+   {
+    "word": "breakup",
+    "rhyme": "A "
+   },
+   {
+    "word": "breathy",
+    "rhyme": "e "
+   },
+   {
+    "word": "brickbat",
+    "rhyme": "i "
+   },
+   {
+    "word": "brickwork",
+    "rhyme": "i "
+   },
+   {
+    "word": "briefcase",
+    "rhyme": "E "
+   },
+   {
+    "word": "brilliance",
+    "rhyme": "i "
+   },
+   {
+    "word": "broken",
+    "rhyme": "O "
+   },
+   {
+    "word": "brush fire",
+    "rhyme": "u "
+   },
+   {
+    "word": "brushoff",
+    "rhyme": "u "
+   },
+   {
+    "word": "budget",
+    "rhyme": "u "
+   },
+   {
+    "word": "bugeyed",
+    "rhyme": "u "
+   },
+   {
+    "word": "building",
+    "rhyme": "i "
+   },
+   {
+    "word": "bulkhead",
+    "rhyme": "u "
+   },
+   {
+    "word": "bullfrog",
+    "rhyme": "u "
+   },
+   {
+    "word": "bungling",
+    "rhyme": "u "
+   },
+   {
+    "word": "buoyant",
+    "rhyme": "O "
+   },
+   {
+    "word": "burlap",
+    "rhyme": "r "
+   },
+   {
+    "word": "busboy",
+    "rhyme": "u "
+   },
+   {
+    "word": "business",
+    "rhyme": "i "
+   },
+   {
+    "word": "buzzword",
+    "rhyme": "uE"
+   },
+   {
+    "word": "bye-bye",
+    "rhyme": "I "
+   },
+   {
+    "word": "bygone",
+    "rhyme": "I "
+   },
+   {
+    "word": "bypass",
+    "rhyme": "I "
+   },
+   {
+    "word": "cabin",
+    "rhyme": "a "
+   },
+   {
+    "word": "campus",
+    "rhyme": "a "
+   },
+   {
+    "word": "cancer",
+    "rhyme": "a "
+   },
+   {
+    "word": "candles",
+    "rhyme": "a "
+   },
+   {
+    "word": "canine",
+    "rhyme": "A "
+   },
+   {
+    "word": "canto",
+    "rhyme": "a "
+   },
+   {
+    "word": "carcass",
+    "rhyme": "o "
+   },
+   {
+    "word": "cardsharp",
+    "rhyme": "o "
+   },
+   {
+    "word": "carload",
+    "rhyme": "o "
+   },
+   {
+    "word": "carnage",
+    "rhyme": "o "
+   },
+   {
+    "word": "carnal",
+    "rhyme": "o "
+   },
+   {
+    "word": "carriage",
+    "rhyme": "e "
+   },
+   {
+    "word": "castle",
+    "rhyme": "a "
+   },
+   {
+    "word": "cattle",
+    "rhyme": "a "
+   },
+   {
+    "word": "cauldron",
+    "rhyme": "o "
+   },
+   {
+    "word": "causal",
+    "rhyme": "o "
+   },
+   {
+    "word": "cavern",
+    "rhyme": "a "
+   },
+   {
+    "word": "censure",
+    "rhyme": "e "
+   },
+   {
+    "word": "centrist",
+    "rhyme": "e "
+   },
+   {
+    "word": "cereal",
+    "rhyme": "E "
+   },
+   {
+    "word": "cheery",
+    "rhyme": "E "
+   },
+   {
+    "word": "childish",
+    "rhyme": "I "
+   },
+   {
+    "word": "chili",
+    "rhyme": "i "
+   },
+   {
+    "word": "choral",
+    "rhyme": "O "
+   },
+   {
+    "word": "chronic",
+    "rhyme": "o "
+   },
+   {
+    "word": "cipher",
+    "rhyme": "I "
+   },
+   {
+    "word": "city",
+    "rhyme": "i "
+   },
+   {
+    "word": "city",
+    "rhyme": "i "
+   },
+   {
+    "word": "civic",
+    "rhyme": "i "
+   },
+   {
+    "word": "claret",
+    "rhyme": "A "
+   },
+   {
+    "word": "classic",
+    "rhyme": "a "
+   },
+   {
+    "word": "clatter",
+    "rhyme": "a "
+   },
+   {
+    "word": "clearance",
+    "rhyme": "E "
+   },
+   {
+    "word": "climax",
+    "rhyme": "I "
+   },
+   {
+    "word": "clumsy",
+    "rhyme": "u "
+   },
+   {
+    "word": "cockroach",
+    "rhyme": "o "
+   },
+   {
+    "word": "coda",
+    "rhyme": "O "
+   },
+   {
+    "word": "cogent",
+    "rhyme": "O "
+   },
+   {
+    "word": "common",
+    "rhyme": "o "
+   },
+   {
+    "word": "conscience",
+    "rhyme": "o "
+   },
+   {
+    "word": "cooking",
+    "rhyme": "u "
+   },
+   {
+    "word": "corpus",
+    "rhyme": "O "
+   },
+   {
+    "word": "cottage",
+    "rhyme": "o "
+   },
+   {
+    "word": "counsel",
+    "rhyme": "w "
+   },
+   {
+    "word": "creaky",
+    "rhyme": "E "
+   },
+   {
+    "word": "creepshow",
+    "rhyme": "E "
+   },
+   {
+    "word": "crises",
+    "rhyme": "I "
+   },
+   {
+    "word": "critics",
+    "rhyme": "i "
+   },
+   {
+    "word": "crucial",
+    "rhyme": "U "
+   },
+   {
+    "word": "crummy",
+    "rhyme": "u "
+   },
+   {
+    "word": "crystal",
+    "rhyme": "i "
+   },
+   {
+    "word": "cubic",
+    "rhyme": "U "
+   },
+   {
+    "word": "cuckoo",
+    "rhyme": "U "
+   },
+   {
+    "word": "culture",
+    "rhyme": "u "
+   },
+   {
+    "word": "curfew",
+    "rhyme": "r "
+   },
+   {
+    "word": "cursor",
+    "rhyme": "r "
+   },
+   {
+    "word": "curtain",
+    "rhyme": "r "
+   },
+   {
+    "word": "custom",
+    "rhyme": "u "
+   },
+   {
+    "word": "cynic",
+    "rhyme": "i "
+   },
+   {
+    "word": "dabbling",
+    "rhyme": "a "
+   },
+   {
+    "word": "daddy",
+    "rhyme": "a "
+   },
+   {
+    "word": "damning",
+    "rhyme": "a "
+   },
+   {
+    "word": "danger",
+    "rhyme": "A "
+   },
+   {
+    "word": "data",
+    "rhyme": "A "
+   },
+   {
+    "word": "daybreak",
+    "rhyme": "A "
+   },
+   {
+    "word": "deadwood",
+    "rhyme": "e "
+   },
+   {
+    "word": "deathly",
+    "rhyme": "e "
+   },
+   {
+    "word": "decent",
+    "rhyme": "E "
+   },
+   {
+    "word": "derelict",
+    "rhyme": "e "
+   },
+   {
+    "word": "digging",
+    "rhyme": "i "
+   },
+   {
+    "word": "disco",
+    "rhyme": "i "
+   },
+   {
+    "word": "doctrine",
+    "rhyme": "o "
+   },
+   {
+    "word": "doleful",
+    "rhyme": "O "
+   },
+   {
+    "word": "doodling",
+    "rhyme": "U "
+   },
+   {
+    "word": "downfall",
+    "rhyme": "w "
+   },
+   {
+    "word": "downtown",
+    "rhyme": "w "
+   },
+   {
+    "word": "downwind",
+    "rhyme": "w "
+   },
+   {
+    "word": "drafty",
+    "rhyme": "a "
+   },
+   {
+    "word": "drama",
+    "rhyme": "o "
+   },
+   {
+    "word": "drastic",
+    "rhyme": "a "
+   },
+   {
+    "word": "dreaded",
+    "rhyme": "e "
+   },
+   {
+    "word": "dreamy",
+    "rhyme": "E "
+   },
+   {
+    "word": "dreary",
+    "rhyme": "E "
+   },
+   {
+    "word": "dripping",
+    "rhyme": "i "
+   },
+   {
+    "word": "driven",
+    "rhyme": "i "
+   },
+   {
+    "word": "droning",
+    "rhyme": "O "
+   },
+   {
+    "word": "drubbing",
+    "rhyme": "u "
+   },
+   {
+    "word": "dry rot",
+    "rhyme": "I "
+   },
+   {
+    "word": "dummy",
+    "rhyme": "u "
+   },
+   {
+    "word": "duplex",
+    "rhyme": "U "
+   },
+   {
+    "word": "dusky",
+    "rhyme": "u "
+   },
+   {
+    "word": "dying",
+    "rhyme": "I "
+   },
+   {
+    "word": "egghead",
+    "rhyme": "e "
+   },
+   {
+    "word": "eggplant",
+    "rhyme": "e "
+   },
+   {
+    "word": "empire",
+    "rhyme": "e "
+   },
+   {
+    "word": "empty",
+    "rhyme": "e "
+   },
+   {
+    "word": "engine",
+    "rhyme": "e "
+   },
+   {
+    "word": "epic",
+    "rhyme": "e "
+   },
+   {
+    "word": "ethnic",
+    "rhyme": "e "
+   },
+   {
+    "word": "fabric",
+    "rhyme": "a "
+   },
+   {
+    "word": "fairy",
+    "rhyme": "A "
+   },
+   {
+    "word": "fallen",
+    "rhyme": "o "
+   },
+   {
+    "word": "famous",
+    "rhyme": "A "
+   },
+   {
+    "word": "far out",
+    "rhyme": "o "
+   },
+   {
+    "word": "farewell",
+    "rhyme": "A "
+   },
+   {
+    "word": "farfetched",
+    "rhyme": "o "
+   },
+   {
+    "word": "fascist",
+    "rhyme": "a "
+   },
+   {
+    "word": "fatal",
+    "rhyme": "A "
+   },
+   {
+    "word": "fatty",
+    "rhyme": "a "
+   },
+   {
+    "word": "faulty",
+    "rhyme": "o "
+   },
+   {
+    "word": "feeble",
+    "rhyme": "E "
+   },
+   {
+    "word": "feedback",
+    "rhyme": "E "
+   },
+   {
+    "word": "female",
+    "rhyme": "E "
+   },
+   {
+    "word": "ferric",
+    "rhyme": "e "
+   },
+   {
+    "word": "fetid",
+    "rhyme": "e "
+   },
+   {
+    "word": "fetish",
+    "rhyme": "e "
+   },
+   {
+    "word": "fettered",
+    "rhyme": "e "
+   },
+   {
+    "word": "feudal",
+    "rhyme": "U "
+   },
+   {
+    "word": "fiendish",
+    "rhyme": "E "
+   },
+   {
+    "word": "figure",
+    "rhyme": "i "
+   },
+   {
+    "word": "filmdom",
+    "rhyme": "i "
+   },
+   {
+    "word": "filthy",
+    "rhyme": "i "
+   },
+   {
+    "word": "finance",
+    "rhyme": "I "
+   },
+   {
+    "word": "finger",
+    "rhyme": "i "
+   },
+   {
+    "word": "finite",
+    "rhyme": "I "
+   },
+   {
+    "word": "firmware",
+    "rhyme": "r "
+   },
+   {
+    "word": "firstborn",
+    "rhyme": "r "
+   },
+   {
+    "word": "fiscal",
+    "rhyme": "i "
+   },
+   {
+    "word": "five-year",
+    "rhyme": "I "
+   },
+   {
+    "word": "fixate",
+    "rhyme": "i "
+   },
+   {
+    "word": "fixture",
+    "rhyme": "i "
+   },
+   {
+    "word": "flabby",
+    "rhyme": "a "
+   },
+   {
+    "word": "flagrant",
+    "rhyme": "A "
+   },
+   {
+    "word": "flailing",
+    "rhyme": "A "
+   },
+   {
+    "word": "flaking",
+    "rhyme": "A "
+   },
+   {
+    "word": "flaring",
+    "rhyme": "A "
+   },
+   {
+    "word": "flashback",
+    "rhyme": "a "
+   },
+   {
+    "word": "flashy",
+    "rhyme": "a "
+   },
+   {
+    "word": "fleeting",
+    "rhyme": "E "
+   },
+   {
+    "word": "fleshy",
+    "rhyme": "e "
+   },
+   {
+    "word": "flimflam",
+    "rhyme": "i "
+   },
+   {
+    "word": "flip-side",
+    "rhyme": "i "
+   },
+   {
+    "word": "flippant",
+    "rhyme": "i "
+   },
+   {
+    "word": "flitting",
+    "rhyme": "i "
+   },
+   {
+    "word": "floppy",
+    "rhyme": "o "
+   },
+   {
+    "word": "flowers",
+    "rhyme": "o "
+   },
+   {
+    "word": "fluent",
+    "rhyme": "U "
+   },
+   {
+    "word": "flyweight",
+    "rhyme": "I "
+   },
+   {
+    "word": "focus",
+    "rhyme": "O "
+   },
+   {
+    "word": "foldout",
+    "rhyme": "O "
+   },
+   {
+    "word": "fondue",
+    "rhyme": "o "
+   },
+   {
+    "word": "foolproof",
+    "rhyme": "U "
+   },
+   {
+    "word": "footwork",
+    "rhyme": "u "
+   },
+   {
+    "word": "forceful",
+    "rhyme": "O "
+   },
+   {
+    "word": "foregone",
+    "rhyme": "O "
+   },
+   {
+    "word": "foreign",
+    "rhyme": "o "
+   },
+   {
+    "word": "format",
+    "rhyme": "O "
+   },
+   {
+    "word": "foundling",
+    "rhyme": "w "
+   },
+   {
+    "word": "fragment",
+    "rhyme": "a "
+   },
+   {
+    "word": "framework",
+    "rhyme": "A "
+   },
+   {
+    "word": "frantic",
+    "rhyme": "a "
+   },
+   {
+    "word": "freeing",
+    "rhyme": "E "
+   },
+   {
+    "word": "fretwork",
+    "rhyme": "e "
+   },
+   {
+    "word": "frightful",
+    "rhyme": "I "
+   },
+   {
+    "word": "frigid",
+    "rhyme": "i "
+   },
+   {
+    "word": "frontal",
+    "rhyme": "o "
+   },
+   {
+    "word": "frothing",
+    "rhyme": "o "
+   },
+   {
+    "word": "frowzy",
+    "rhyme": "w "
+   },
+   {
+    "word": "fulsome",
+    "rhyme": "u "
+   },
+   {
+    "word": "functions",
+    "rhyme": "u "
+   },
+   {
+    "word": "funeral",
+    "rhyme": "U "
+   },
+   {
+    "word": "funneled",
+    "rhyme": "u "
+   },
+   {
+    "word": "fusion",
+    "rhyme": "U "
+   },
+   {
+    "word": "fussy",
+    "rhyme": "u "
+   },
+   {
+    "word": "futile",
+    "rhyme": "U "
+   },
+   {
+    "word": "future",
+    "rhyme": "U "
+   },
+   {
+    "word": "fuzzy",
+    "rhyme": "u "
+   },
+   {
+    "word": "gagging",
+    "rhyme": "a "
+   },
+   {
+    "word": "gala",
+    "rhyme": "A "
+   },
+   {
+    "word": "gaping",
+    "rhyme": "A "
+   },
+   {
+    "word": "garbage",
+    "rhyme": "o "
+   },
+   {
+    "word": "garish",
+    "rhyme": "A "
+   },
+   {
+    "word": "gastric",
+    "rhyme": "a "
+   },
+   {
+    "word": "genius",
+    "rhyme": "E "
+   },
+   {
+    "word": "ghostly",
+    "rhyme": "O "
+   },
+   {
+    "word": "glamour",
+    "rhyme": "a "
+   },
+   {
+    "word": "glaring",
+    "rhyme": "A "
+   },
+   {
+    "word": "gloating",
+    "rhyme": "O "
+   },
+   {
+    "word": "global",
+    "rhyme": "O "
+   },
+   {
+    "word": "gobble",
+    "rhyme": "o "
+   },
+   {
+    "word": "godhead",
+    "rhyme": "o "
+   },
+   {
+    "word": "goggle",
+    "rhyme": "o "
+   },
+   {
+    "word": "gotten",
+    "rhyme": "o "
+   },
+   {
+    "word": "graphic",
+    "rhyme": "a "
+   },
+   {
+    "word": "greater",
+    "rhyme": "A "
+   },
+   {
+    "word": "grievous",
+    "rhyme": "E "
+   },
+   {
+    "word": "grovel",
+    "rhyme": "u "
+   },
+   {
+    "word": "grudging",
+    "rhyme": "u "
+   },
+   {
+    "word": "gruesome",
+    "rhyme": "U "
+   },
+   {
+    "word": "guesswork",
+    "rhyme": "e "
+   },
+   {
+    "word": "ha ha",
+    "rhyme": "o "
+   },
+   {
+    "word": "hackneyed",
+    "rhyme": "a "
+   },
+   {
+    "word": "haggard",
+    "rhyme": "a "
+   },
+   {
+    "word": "hairy",
+    "rhyme": "A "
+   },
+   {
+    "word": "hand-held",
+    "rhyme": "a "
+   },
+   {
+    "word": "handout",
+    "rhyme": "a "
+   },
+   {
+    "word": "handy",
+    "rhyme": "a "
+   },
+   {
+    "word": "happy",
+    "rhyme": "a "
+   },
+   {
+    "word": "hard core",
+    "rhyme": "o "
+   },
+   {
+    "word": "hardball",
+    "rhyme": "o "
+   },
+   {
+    "word": "hardware",
+    "rhyme": "o "
+   },
+   {
+    "word": "hashes",
+    "rhyme": "a "
+   },
+   {
+    "word": "hassled",
+    "rhyme": "a "
+   },
+   {
+    "word": "hated",
+    "rhyme": "A "
+   },
+   {
+    "word": "heady",
+    "rhyme": "e "
+   },
+   {
+    "word": "heat-seeking",
+    "rhyme": "E "
+   },
+   {
+    "word": "heathen",
+    "rhyme": "E "
+   },
+   {
+    "word": "heavy",
+    "rhyme": "e "
+   },
+   {
+    "word": "hectic",
+    "rhyme": "e "
+   },
+   {
+    "word": "hedgehog",
+    "rhyme": "e "
+   },
+   {
+    "word": "hellish",
+    "rhyme": "e "
+   },
+   {
+    "word": "henceforth",
+    "rhyme": "e "
+   },
+   {
+    "word": "herald",
+    "rhyme": "e "
+   },
+   {
+    "word": "hero",
+    "rhyme": "E "
+   },
+   {
+    "word": "hidden",
+    "rhyme": "i "
+   },
+   {
+    "word": "high-rev",
+    "rhyme": "I "
+   },
+   {
+    "word": "hindbrain",
+    "rhyme": "I "
+   },
+   {
+    "word": "hindrance",
+    "rhyme": "i "
+   },
+   {
+    "word": "hogging",
+    "rhyme": "o "
+   },
+   {
+    "word": "holdup",
+    "rhyme": "O "
+   },
+   {
+    "word": "hollow",
+    "rhyme": "o "
+   },
+   {
+    "word": "homo",
+    "rhyme": "O "
+   },
+   {
+    "word": "hookup",
+    "rhyme": "u "
+   },
+   {
+    "word": "hopping",
+    "rhyme": "u "
+   },
+   {
+    "word": "horntail",
+    "rhyme": "O "
+   },
+   {
+    "word": "hostile",
+    "rhyme": "o "
+   },
+   {
+    "word": "hothouse",
+    "rhyme": "o "
+   },
+   {
+    "word": "icy",
+    "rhyme": "I "
+   },
+   {
+    "word": "idle",
+    "rhyme": "I "
+   },
+   {
+    "word": "impish",
+    "rhyme": "i "
+   },
+   {
+    "word": "inborn",
+    "rhyme": "i "
+   },
+   {
+    "word": "index",
+    "rhyme": "i "
+   },
+   {
+    "word": "jackpot",
+    "rhyme": "a "
+   },
+   {
+    "word": "jamming",
+    "rhyme": "a "
+   },
+   {
+    "word": "jaundiced",
+    "rhyme": "o "
+   },
+   {
+    "word": "jigsaw",
+    "rhyme": "i "
+   },
+   {
+    "word": "jimson",
+    "rhyme": "i "
+   },
+   {
+    "word": "jumble",
+    "rhyme": "u "
+   },
+   {
+    "word": "kernel",
+    "rhyme": "r "
+   },
+   {
+    "word": "keynote",
+    "rhyme": "E "
+   },
+   {
+    "word": "khaki",
+    "rhyme": "a "
+   },
+   {
+    "word": "kinky",
+    "rhyme": "i "
+   },
+   {
+    "word": "labor",
+    "rhyme": "A "
+   },
+   {
+    "word": "lacquered",
+    "rhyme": "a "
+   },
+   {
+    "word": "lagging",
+    "rhyme": "a "
+   },
+   {
+    "word": "larval",
+    "rhyme": "o "
+   },
+   {
+    "word": "latest",
+    "rhyme": "A "
+   },
+   {
+    "word": "latex",
+    "rhyme": "A "
+   },
+   {
+    "word": "lattice",
+    "rhyme": "a "
+   },
+   {
+    "word": "leaky",
+    "rhyme": "E "
+   },
+   {
+    "word": "leaving",
+    "rhyme": "E "
+   },
+   {
+    "word": "legal",
+    "rhyme": "El"
+   },
+   {
+    "word": "lengthen",
+    "rhyme": "e "
+   },
+   {
+    "word": "libel",
+    "rhyme": "I "
+   },
+   {
+    "word": "lifetime",
+    "rhyme": "I "
+   },
+   {
+    "word": "likewise",
+    "rhyme": "I "
+   },
+   {
+    "word": "lilac",
+    "rhyme": "I "
+   },
+   {
+    "word": "lilting",
+    "rhyme": "i "
+   },
+   {
+    "word": "limit",
+    "rhyme": "i "
+   },
+   {
+    "word": "lingual",
+    "rhyme": "i "
+   },
+   {
+    "word": "lipid",
+    "rhyme": "i "
+   },
+   {
+    "word": "liquid",
+    "rhyme": "i "
+   },
+   {
+    "word": "livid",
+    "rhyme": "i "
+   },
+   {
+    "word": "lobster",
+    "rhyme": "o "
+   },
+   {
+    "word": "logic",
+    "rhyme": "o "
+   },
+   {
+    "word": "logjam",
+    "rhyme": "o "
+   },
+   {
+    "word": "longish",
+    "rhyme": "o "
+   },
+   {
+    "word": "longtime",
+    "rhyme": "o "
+   },
+   {
+    "word": "looping",
+    "rhyme": "U "
+   },
+   {
+    "word": "loose-lipped",
+    "rhyme": "U "
+   },
+   {
+    "word": "lousy",
+    "rhyme": "w "
+   },
+   {
+    "word": "loutish",
+    "rhyme": "w "
+   },
+   {
+    "word": "lovesick",
+    "rhyme": "u "
+   },
+   {
+    "word": "low-key",
+    "rhyme": "O "
+   },
+   {
+    "word": "low-yield",
+    "rhyme": "O "
+   },
+   {
+    "word": "lucid",
+    "rhyme": "U "
+   },
+   {
+    "word": "lulling",
+    "rhyme": "u "
+   },
+   {
+    "word": "lumpish",
+    "rhyme": "u "
+   },
+   {
+    "word": "lunchtime",
+    "rhyme": "u "
+   },
+   {
+    "word": "lyric",
+    "rhyme": "E "
+   },
+   {
+    "word": "macro",
+    "rhyme": "a "
+   },
+   {
+    "word": "madcap",
+    "rhyme": "a "
+   },
+   {
+    "word": "madman",
+    "rhyme": "a "
+   },
+   {
+    "word": "mainline",
+    "rhyme": "A "
+   },
+   {
+    "word": "makeshift",
+    "rhyme": "A "
+   },
+   {
+    "word": "many",
+    "rhyme": "e "
+   },
+   {
+    "word": "mapping",
+    "rhyme": "a "
+   },
+   {
+    "word": "margins",
+    "rhyme": "o "
+   },
+   {
+    "word": "marker",
+    "rhyme": "o "
+   },
+   {
+    "word": "markets",
+    "rhyme": "o "
+   },
+   {
+    "word": "martyrs",
+    "rhyme": "o "
+   },
+   {
+    "word": "master",
+    "rhyme": "A "
+   },
+   {
+    "word": "matrix",
+    "rhyme": "A "
+   },
+   {
+    "word": "meager",
+    "rhyme": "E "
+   },
+   {
+    "word": "meanwhile",
+    "rhyme": "E "
+   },
+   {
+    "word": "measure",
+    "rhyme": "e "
+   },
+   {
+    "word": "meaty",
+    "rhyme": "E "
+   },
+   {
+    "word": "memo",
+    "rhyme": "e "
+   },
+   {
+    "word": "menace",
+    "rhyme": "e "
+   },
+   {
+    "word": "messy",
+    "rhyme": "e "
+   },
+   {
+    "word": "metric",
+    "rhyme": "e "
+   },
+   {
+    "word": "metro",
+    "rhyme": "e "
+   },
+   {
+    "word": "mewling",
+    "rhyme": "U "
+   },
+   {
+    "word": "mezzo",
+    "rhyme": "e "
+   },
+   {
+    "word": "midband",
+    "rhyme": "i "
+   },
+   {
+    "word": "midrange",
+    "rhyme": "i "
+   },
+   {
+    "word": "midscale",
+    "rhyme": "i "
+   },
+   {
+    "word": "milestones",
+    "rhyme": "I "
+   },
+   {
+    "word": "mimics",
+    "rhyme": "i "
+   },
+   {
+    "word": "mini",
+    "rhyme": "i "
+   },
+   {
+    "word": "minus",
+    "rhyme": "I "
+   },
+   {
+    "word": "mirror",
+    "rhyme": "E "
+   },
+   {
+    "word": "mobbing",
+    "rhyme": "o "
+   },
+   {
+    "word": "mockup",
+    "rhyme": "o "
+   },
+   {
+    "word": "molar",
+    "rhyme": "O "
+   },
+   {
+    "word": "molehill",
+    "rhyme": "O "
+   },
+   {
+    "word": "money",
+    "rhyme": "u "
+   },
+   {
+    "word": "mongrel",
+    "rhyme": "o "
+   },
+   {
+    "word": "monster",
+    "rhyme": "o "
+   },
+   {
+    "word": "moonstruck",
+    "rhyme": "U "
+   },
+   {
+    "word": "mopping",
+    "rhyme": "o "
+   },
+   {
+    "word": "morbid",
+    "rhyme": "O "
+   },
+   {
+    "word": "moron",
+    "rhyme": "O "
+   },
+   {
+    "word": "mortal",
+    "rhyme": "O "
+   },
+   {
+    "word": "motel",
+    "rhyme": "O "
+   },
+   {
+    "word": "motives",
+    "rhyme": "O "
+   },
+   {
+    "word": "mousy",
+    "rhyme": "w "
+   },
+   {
+    "word": "mouthpiece",
+    "rhyme": "w "
+   },
+   {
+    "word": "muddle",
+    "rhyme": "u "
+   },
+   {
+    "word": "muggy",
+    "rhyme": "u "
+   },
+   {
+    "word": "music",
+    "rhyme": "U "
+   },
+   {
+    "word": "mutant",
+    "rhyme": "U "
+   },
+   {
+    "word": "muzzle",
+    "rhyme": "u "
+   },
+   {
+    "word": "mystic",
+    "rhyme": "i "
+   },
+   {
+    "word": "nada",
+    "rhyme": "o "
+   },
+   {
+    "word": "nadir",
+    "rhyme": "A "
+   },
+   {
+    "word": "nagging",
+    "rhyme": "a "
+   },
+   {
+    "word": "naked",
+    "rhyme": "A "
+   },
+   {
+    "word": "nasal",
+    "rhyme": "A "
+   },
+   {
+    "word": "nasty",
+    "rhyme": "a "
+   },
+   {
+    "word": "nature",
+    "rhyme": "A "
+   },
+   {
+    "word": "nearby",
+    "rhyme": "E "
+   },
+   {
+    "word": "neatly",
+    "rhyme": "E "
+   },
+   {
+    "word": "neon",
+    "rhyme": "E "
+   },
+   {
+    "word": "network",
+    "rhyme": "e "
+   },
+   {
+    "word": "network",
+    "rhyme": "e "
+   },
+   {
+    "word": "neurons",
+    "rhyme": "U "
+   },
+   {
+    "word": "neuter",
+    "rhyme": "U "
+   },
+   {
+    "word": "neutral",
+    "rhyme": "U "
+   },
+   {
+    "word": "new wave",
+    "rhyme": "U "
+   },
+   {
+    "word": "new world",
+    "rhyme": "U "
+   },
+   {
+    "word": "nibble",
+    "rhyme": "i "
+   },
+   {
+    "word": "nightfall",
+    "rhyme": "I "
+   },
+   {
+    "word": "nightmare",
+    "rhyme": "I "
+   },
+   {
+    "word": "nimbus",
+    "rhyme": "i "
+   },
+   {
+    "word": "nineteen",
+    "rhyme": "I "
+   },
+   {
+    "word": "nitpick",
+    "rhyme": "i "
+   },
+   {
+    "word": "nitrite",
+    "rhyme": "I "
+   },
+   {
+    "word": "no-show",
+    "rhyme": "O "
+   },
+   {
+    "word": "nocturne",
+    "rhyme": "o "
+   },
+   {
+    "word": "nodal",
+    "rhyme": "O "
+   },
+   {
+    "word": "nonstop",
+    "rhyme": "o "
+   },
+   {
+    "word": "noontime",
+    "rhyme": "U "
+   },
+   {
+    "word": "normal",
+    "rhyme": "O "
+   },
+   {
+    "word": "nouveau",
+    "rhyme": "U "
+   },
+   {
+    "word": "nuisance",
+    "rhyme": "U "
+   },
+   {
+    "word": "octal",
+    "rhyme": "o "
+   },
+   {
+    "word": "odor",
+    "rhyme": "O "
+   },
+   {
+    "word": "office",
+    "rhyme": "o "
+   },
+   {
+    "word": "offset",
+    "rhyme": "o "
+   },
+   {
+    "word": "offshore",
+    "rhyme": "o "
+   },
+   {
+    "word": "oily",
+    "rhyme": "y "
+   },
+   {
+    "word": "omen",
+    "rhyme": "O "
+   },
+   {
+    "word": "onrush",
+    "rhyme": "o "
+   },
+   {
+    "word": "options",
+    "rhyme": "o "
+   },
+   {
+    "word": "oral",
+    "rhyme": "O "
+   },
+   {
+    "word": "orgy",
+    "rhyme": "O "
+   },
+   {
+    "word": "outrage",
+    "rhyme": "w "
+   },
+   {
+    "word": "package",
+    "rhyme": "a "
+   },
+   {
+    "word": "padding",
+    "rhyme": "a "
+   },
+   {
+    "word": "pairwise",
+    "rhyme": "A "
+   },
+   {
+    "word": "panic",
+    "rhyme": "a "
+   },
+   {
+    "word": "paper",
+    "rhyme": "A "
+   },
+   {
+    "word": "parsing",
+    "rhyme": "o "
+   },
+   {
+    "word": "partial",
+    "rhyme": "o "
+   },
+   {
+    "word": "party",
+    "rhyme": "o "
+   },
+   {
+    "word": "passage",
+    "rhyme": "a "
+   },
+   {
+    "word": "passive",
+    "rhyme": "a "
+   },
+   {
+    "word": "pasta",
+    "rhyme": "o "
+   },
+   {
+    "word": "pasteup",
+    "rhyme": "A "
+   },
+   {
+    "word": "patchwork",
+    "rhyme": "a "
+   },
+   {
+    "word": "pendant",
+    "rhyme": "e "
+   },
+   {
+    "word": "penning",
+    "rhyme": "e "
+   },
+   {
+    "word": "peon",
+    "rhyme": "E "
+   },
+   {
+    "word": "people",
+    "rhyme": "E "
+   },
+   {
+    "word": "phobic",
+    "rhyme": "O "
+   },
+   {
+    "word": "phonic",
+    "rhyme": "o "
+   },
+   {
+    "word": "picnic",
+    "rhyme": "i "
+   },
+   {
+    "word": "piddling",
+    "rhyme": "i "
+   },
+   {
+    "word": "piecemeal",
+    "rhyme": "E "
+   },
+   {
+    "word": "pitting",
+    "rhyme": "i "
+   },
+   {
+    "word": "plastic",
+    "rhyme": "a "
+   },
+   {
+    "word": "plenty",
+    "rhyme": "e "
+   },
+   {
+    "word": "plotting",
+    "rhyme": "o "
+   },
+   {
+    "word": "plural",
+    "rhyme": "U "
+   },
+   {
+    "word": "poem",
+    "rhyme": "O "
+   },
+   {
+    "word": "posture",
+    "rhyme": "o "
+   },
+   {
+    "word": "prefab",
+    "rhyme": "E "
+   },
+   {
+    "word": "prep school",
+    "rhyme": "e "
+   },
+   {
+    "word": "presto",
+    "rhyme": "e "
+   },
+   {
+    "word": "pretzel",
+    "rhyme": "e "
+   },
+   {
+    "word": "primal",
+    "rhyme": "I "
+   },
+   {
+    "word": "problems",
+    "rhyme": "o "
+   },
+   {
+    "word": "prodding",
+    "rhyme": "o "
+   },
+   {
+    "word": "products",
+    "rhyme": "o "
+   },
+   {
+    "word": "profit",
+    "rhyme": "o "
+   },
+   {
+    "word": "program",
+    "rhyme": "O "
+   },
+   {
+    "word": "pronto",
+    "rhyme": "o "
+   },
+   {
+    "word": "prowess",
+    "rhyme": "w "
+   },
+   {
+    "word": "pseudo",
+    "rhyme": "U "
+   },
+   {
+    "word": "puny",
+    "rhyme": "U "
+   },
+   {
+    "word": "quantum",
+    "rhyme": "o "
+   },
+   {
+    "word": "rabbits",
+    "rhyme": "a "
+   },
+   {
+    "word": "ragtime",
+    "rhyme": "a "
+   },
+   {
+    "word": "railroad",
+    "rhyme": "A "
+   },
+   {
+    "word": "rainstorm",
+    "rhyme": "A "
+   },
+   {
+    "word": "rampant",
+    "rhyme": "a "
+   },
+   {
+    "word": "rather",
+    "rhyme": "o "
+   },
+   {
+    "word": "raving",
+    "rhyme": "A "
+   },
+   {
+    "word": "real-time",
+    "rhyme": "E "
+   },
+   {
+    "word": "rear-view",
+    "rhyme": "E "
+   },
+   {
+    "word": "reptile",
+    "rhyme": "e "
+   },
+   {
+    "word": "rhomboid",
+    "rhyme": "y "
+   },
+   {
+    "word": "ridding",
+    "rhyme": "i "
+   },
+   {
+    "word": "riddle",
+    "rhyme": "i "
+   },
+   {
+    "word": "right-wing",
+    "rhyme": "E "
+   },
+   {
+    "word": "ringside",
+    "rhyme": "i "
+   },
+   {
+    "word": "ripoff",
+    "rhyme": "i "
+   },
+   {
+    "word": "ripping",
+    "rhyme": "i "
+   },
+   {
+    "word": "rollback",
+    "rhyme": "O "
+   },
+   {
+    "word": "rosy",
+    "rhyme": "O "
+   },
+   {
+    "word": "roughcast",
+    "rhyme": "u "
+   },
+   {
+    "word": "roundhouse",
+    "rhyme": "w "
+   },
+   {
+    "word": "rubbish",
+    "rhyme": "u "
+   },
+   {
+    "word": "ruby",
+    "rhyme": "U "
+   },
+   {
+    "word": "safeguard",
+    "rhyme": "A "
+   },
+   {
+    "word": "sagging",
+    "rhyme": "a "
+   },
+   {
+    "word": "salary",
+    "rhyme": "a "
+   },
+   {
+    "word": "sample",
+    "rhyme": "a "
+   },
+   {
+    "word": "sandwich",
+    "rhyme": "a "
+   },
+   {
+    "word": "saucy",
+    "rhyme": "o "
+   },
+   {
+    "word": "scaley",
+    "rhyme": "A "
+   },
+   {
+    "word": "scanty",
+    "rhyme": "a "
+   },
+   {
+    "word": "scarlet",
+    "rhyme": "o "
+   },
+   {
+    "word": "schedules",
+    "rhyme": "e "
+   },
+   {
+    "word": "scherzo",
+    "rhyme": "e "
+   },
+   {
+    "word": "schism",
+    "rhyme": "i "
+   },
+   {
+    "word": "schizo",
+    "rhyme": "i "
+   },
+   {
+    "word": "scripture",
+    "rhyme": "i "
+   },
+   {
+    "word": "seafood",
+    "rhyme": "E "
+   },
+   {
+    "word": "searching",
+    "rhyme": "u "
+   },
+   {
+    "word": "seashore",
+    "rhyme": "E "
+   },
+   {
+    "word": "season",
+    "rhyme": "E "
+   },
+   {
+    "word": "secret",
+    "rhyme": "E "
+   },
+   {
+    "word": "seepage",
+    "rhyme": "E "
+   },
+   {
+    "word": "seismic",
+    "rhyme": "I "
+   },
+   {
+    "word": "sellout",
+    "rhyme": "e "
+   },
+   {
+    "word": "sentient",
+    "rhyme": "e "
+   },
+   {
+    "word": "septic",
+    "rhyme": "e "
+   },
+   {
+    "word": "servo",
+    "rhyme": "r "
+   },
+   {
+    "word": "setback",
+    "rhyme": "e "
+   },
+   {
+    "word": "sex-starved",
+    "rhyme": "e "
+   },
+   {
+    "word": "sexual",
+    "rhyme": "e "
+   },
+   {
+    "word": "shambles",
+    "rhyme": "a "
+   },
+   {
+    "word": "shedding",
+    "rhyme": "e "
+   },
+   {
+    "word": "shipwreck",
+    "rhyme": "i "
+   },
+   {
+    "word": "shopworn",
+    "rhyme": "o "
+   },
+   {
+    "word": "shortcut",
+    "rhyme": "O "
+   },
+   {
+    "word": "shortfall",
+    "rhyme": "O "
+   },
+   {
+    "word": "showpiece",
+    "rhyme": "O "
+   },
+   {
+    "word": "shrink-wrapped",
+    "rhyme": "i "
+   },
+   {
+    "word": "shutdown",
+    "rhyme": "u "
+   },
+   {
+    "word": "sideshow",
+    "rhyme": "I "
+   },
+   {
+    "word": "silly",
+    "rhyme": "i "
+   },
+   {
+    "word": "silver",
+    "rhyme": "i "
+   },
+   {
+    "word": "simple",
+    "rhyme": "i "
+   },
+   {
+    "word": "sirloin",
+    "rhyme": "r "
+   },
+   {
+    "word": "skimpy",
+    "rhyme": "i "
+   },
+   {
+    "word": "slowdown",
+    "rhyme": "w "
+   },
+   {
+    "word": "sluggish",
+    "rhyme": "u "
+   },
+   {
+    "word": "slumming",
+    "rhyme": "u "
+   },
+   {
+    "word": "smallish",
+    "rhyme": "o "
+   },
+   {
+    "word": "snotty",
+    "rhyme": "o "
+   },
+   {
+    "word": "so-called",
+    "rhyme": "od"
+   },
+   {
+    "word": "soda",
+    "rhyme": "O "
+   },
+   {
+    "word": "sodding",
+    "rhyme": "o "
+   },
+   {
+    "word": "software",
+    "rhyme": "o "
+   },
+   {
+    "word": "sold out",
+    "rhyme": "O "
+   },
+   {
+    "word": "somewhat",
+    "rhyme": "u "
+   },
+   {
+    "word": "sonic",
+    "rhyme": "o "
+   },
+   {
+    "word": "sorry",
+    "rhyme": "o "
+   },
+   {
+    "word": "spasm",
+    "rhyme": "a "
+   },
+   {
+    "word": "spastic",
+    "rhyme": "a "
+   },
+   {
+    "word": "specious",
+    "rhyme": "E "
+   },
+   {
+    "word": "spiral",
+    "rhyme": "I "
+   },
+   {
+    "word": "spotted",
+    "rhyme": "o "
+   },
+   {
+    "word": "squalid",
+    "rhyme": "o "
+   },
+   {
+    "word": "squirrel",
+    "rhyme": "r "
+   },
+   {
+    "word": "stagnant",
+    "rhyme": "a "
+   },
+   {
+    "word": "stalemate",
+    "rhyme": "A "
+   },
+   {
+    "word": "standards",
+    "rhyme": "a "
+   },
+   {
+    "word": "startling",
+    "rhyme": "o "
+   },
+   {
+    "word": "static",
+    "rhyme": "a "
+   },
+   {
+    "word": "status",
+    "rhyme": "a "
+   },
+   {
+    "word": "steady",
+    "rhyme": "e "
+   },
+   {
+    "word": "sterile",
+    "rhyme": "e "
+   },
+   {
+    "word": "steroid",
+    "rhyme": "e "
+   },
+   {
+    "word": "sticky",
+    "rhyme": "i "
+   },
+   {
+    "word": "stigma",
+    "rhyme": "i "
+   },
+   {
+    "word": "stinkpot",
+    "rhyme": "i "
+   },
+   {
+    "word": "stoic",
+    "rhyme": "O "
+   },
+   {
+    "word": "stonewall",
+    "rhyme": "O "
+   },
+   {
+    "word": "stoppage",
+    "rhyme": "o "
+   },
+   {
+    "word": "stranger",
+    "rhyme": "A "
+   },
+   {
+    "word": "stupid",
+    "rhyme": "U "
+   },
+   {
+    "word": "subtle",
+    "rhyme": "u "
+   },
+   {
+    "word": "suburb",
+    "rhyme": "u "
+   },
+   {
+    "word": "suction",
+    "rhyme": "u "
+   },
+   {
+    "word": "sudden",
+    "rhyme": "u "
+   },
+   {
+    "word": "sulky",
+    "rhyme": "u "
+   },
+   {
+    "word": "sultry",
+    "rhyme": "u "
+   },
+   {
+    "word": "sunrise",
+    "rhyme": "u "
+   },
+   {
+    "word": "sunshine",
+    "rhyme": "u "
+   },
+   {
+    "word": "super",
+    "rhyme": "U "
+   },
+   {
+    "word": "surplus",
+    "rhyme": "u "
+   },
+   {
+    "word": "swelter",
+    "rhyme": "e "
+   },
+   {
+    "word": "system",
+    "rhyme": "i "
+   },
+   {
+    "word": "system",
+    "rhyme": "i "
+   },
+   {
+    "word": "tenfold",
+    "rhyme": "e "
+   },
+   {
+    "word": "thereby",
+    "rhyme": "e "
+   },
+   {
+    "word": "thermal",
+    "rhyme": "r "
+   },
+   {
+    "word": "thesis",
+    "rhyme": "E "
+   },
+   {
+    "word": "thorough",
+    "rhyme": "o "
+   },
+   {
+    "word": "throughput",
+    "rhyme": "U "
+   },
+   {
+    "word": "timeshare",
+    "rhyme": "I "
+   },
+   {
+    "word": "tiresome",
+    "rhyme": "I "
+   },
+   {
+    "word": "to each",
+    "rhyme": "EC"
+   },
+   {
+    "word": "tombstone",
+    "rhyme": "U "
+   },
+   {
+    "word": "tonal",
+    "rhyme": "O "
+   },
+   {
+    "word": "top-forty",
+    "rhyme": "o "
+   },
+   {
+    "word": "topnotch",
+    "rhyme": "o "
+   },
+   {
+    "word": "torpor",
+    "rhyme": "O "
+   },
+   {
+    "word": "torrid",
+    "rhyme": "O "
+   },
+   {
+    "word": "total",
+    "rhyme": "O "
+   },
+   {
+    "word": "toxic",
+    "rhyme": "o "
+   },
+   {
+    "word": "tradeoff",
+    "rhyme": "A "
+   },
+   {
+    "word": "tragic",
+    "rhyme": "a "
+   },
+   {
+    "word": "trophies",
+    "rhyme": "O "
+   },
+   {
+    "word": "twaddle",
+    "rhyme": "o "
+   },
+   {
+    "word": "typhoid",
+    "rhyme": "I "
+   },
+   {
+    "word": "ultra",
+    "rhyme": "u "
+   },
+   {
+    "word": "umbra",
+    "rhyme": "u "
+   },
+   {
+    "word": "unpurged",
+    "rhyme": "u "
+   },
+   {
+    "word": "unripe",
+    "rhyme": "u "
+   },
+   {
+    "word": "upshot",
+    "rhyme": "u "
+   },
+   {
+    "word": "upturn",
+    "rhyme": "u "
+   },
+   {
+    "word": "urgent",
+    "rhyme": "r "
+   },
+   {
+    "word": "utter",
+    "rhyme": "u "
+   },
+   {
+    "word": "vacuum",
+    "rhyme": "a "
+   },
+   {
+    "word": "vector",
+    "rhyme": "e "
+   },
+   {
+    "word": "venture",
+    "rhyme": "e "
+   },
+   {
+    "word": "version",
+    "rhyme": "r "
+   },
+   {
+    "word": "veto",
+    "rhyme": "E "
+   },
+   {
+    "word": "vinyl",
+    "rhyme": "I "
+   },
+   {
+    "word": "voodoo",
+    "rhyme": "U "
+   },
+   {
+    "word": "vulgar",
+    "rhyme": "u "
+   },
+   {
+    "word": "waffling",
+    "rhyme": "o "
+   },
+   {
+    "word": "wailing",
+    "rhyme": "A "
+   },
+   {
+    "word": "warmup",
+    "rhyme": "o "
+   },
+   {
+    "word": "washout",
+    "rhyme": "o "
+   },
+   {
+    "word": "water",
+    "rhyme": "o "
+   },
+   {
+    "word": "weasel",
+    "rhyme": "E "
+   },
+   {
+    "word": "welfare",
+    "rhyme": "e "
+   },
+   {
+    "word": "wetback",
+    "rhyme": "e "
+   },
+   {
+    "word": "whatnot",
+    "rhyme": "u "
+   },
+   {
+    "word": "wholesale",
+    "rhyme": "O "
+   },
+   {
+    "word": "whopping",
+    "rhyme": "o "
+   },
+   {
+    "word": "widespread",
+    "rhyme": "I "
+   },
+   {
+    "word": "willful",
+    "rhyme": "i "
+   },
+   {
+    "word": "wilted",
+    "rhyme": "i "
+   },
+   {
+    "word": "windbag",
+    "rhyme": "i "
+   },
+   {
+    "word": "windfall",
+    "rhyme": "i "
+   },
+   {
+    "word": "window",
+    "rhyme": "i "
+   },
+   {
+    "word": "wisdom",
+    "rhyme": "i "
+   },
+   {
+    "word": "withered",
+    "rhyme": "i "
+   },
+   {
+    "word": "women",
+    "rhyme": "i "
+   },
+   {
+    "word": "woolly",
+    "rhyme": "u "
+   },
+   {
+    "word": "worldwide",
+    "rhyme": "u "
+   },
+   {
+    "word": "wreckage",
+    "rhyme": "e "
+   },
+   {
+    "word": "written",
+    "rhyme": "i "
+   },
+   {
+    "word": "yellow",
+    "rhyme": "e "
+   },
+   {
+    "word": "yo-yo",
+    "rhyme": "O "
+   },
+   {
+    "word": "yogi",
+    "rhyme": "O "
+   },
+   {
+    "word": "zeroed",
+    "rhyme": "E "
+   },
+   {
+    "word": "zombie",
+    "rhyme": "o "
+   }
+  ]
+ },
+ "FT_DF": {
+  "resource_id": 133,
+  "count": 144,
+  "words": [
+   {
+    "word": "Benthamite",
+    "rhyme": "e "
+   },
+   {
+    "word": "Boolean",
+    "rhyme": "U "
+   },
+   {
+    "word": "Budweiser",
+    "rhyme": "u "
+   },
+   {
+    "word": "Indian",
+    "rhyme": "i "
+   },
+   {
+    "word": "Mafia",
+    "rhyme": "o "
+   },
+   {
+    "word": "Siamese",
+    "rhyme": "I "
+   },
+   {
+    "word": "X-rated",
+    "rhyme": "ex"
+   },
+   {
+    "word": "absolute",
+    "rhyme": "a "
+   },
+   {
+    "word": "adamant",
+    "rhyme": "ao"
+   },
+   {
+    "word": "affluent",
+    "rhyme": "a "
+   },
+   {
+    "word": "anchovy",
+    "rhyme": "a "
+   },
+   {
+    "word": "annual",
+    "rhyme": "a "
+   },
+   {
+    "word": "atheist",
+    "rhyme": "i "
+   },
+   {
+    "word": "axiom",
+    "rhyme": "a "
+   },
+   {
+    "word": "biblical",
+    "rhyme": "i "
+   },
+   {
+    "word": "bicycle",
+    "rhyme": "I "
+   },
+   {
+    "word": "bigoted",
+    "rhyme": "i "
+   },
+   {
+    "word": "binary",
+    "rhyme": "I "
+   },
+   {
+    "word": "brevity",
+    "rhyme": "e "
+   },
+   {
+    "word": "budgeted",
+    "rhyme": "u "
+   },
+   {
+    "word": "butchery",
+    "rhyme": "u "
+   },
+   {
+    "word": "cancerous",
+    "rhyme": "a "
+   },
+   {
+    "word": "cannibal",
+    "rhyme": "a "
+   },
+   {
+    "word": "capital",
+    "rhyme": "a "
+   },
+   {
+    "word": "chariot",
+    "rhyme": "A "
+   },
+   {
+    "word": "circular",
+    "rhyme": "r "
+   },
+   {
+    "word": "company",
+    "rhyme": "u "
+   },
+   {
+    "word": "competence",
+    "rhyme": "o "
+   },
+   {
+    "word": "corporate",
+    "rhyme": "o "
+   },
+   {
+    "word": "criminal",
+    "rhyme": "i "
+   },
+   {
+    "word": "cruelty",
+    "rhyme": "U "
+   },
+   {
+    "word": "cumulus",
+    "rhyme": "U "
+   },
+   {
+    "word": "deadening",
+    "rhyme": "e "
+   },
+   {
+    "word": "decorous",
+    "rhyme": "e "
+   },
+   {
+    "word": "delicate",
+    "rhyme": "e "
+   },
+   {
+    "word": "diligent",
+    "rhyme": "i "
+   },
+   {
+    "word": "doctoral",
+    "rhyme": "o "
+   },
+   {
+    "word": "dubious",
+    "rhyme": "U "
+   },
+   {
+    "word": "edible",
+    "rhyme": "e "
+   },
+   {
+    "word": "elegant",
+    "rhyme": "e "
+   },
+   {
+    "word": "enemy",
+    "rhyme": "e "
+   },
+   {
+    "word": "energy",
+    "rhyme": "e "
+   },
+   {
+    "word": "estimate",
+    "rhyme": "e "
+   },
+   {
+    "word": "etiquette",
+    "rhyme": "e "
+   },
+   {
+    "word": "fabulous",
+    "rhyme": "a "
+   },
+   {
+    "word": "fallible",
+    "rhyme": "a "
+   },
+   {
+    "word": "fanciful",
+    "rhyme": "a "
+   },
+   {
+    "word": "farcical",
+    "rhyme": "o "
+   },
+   {
+    "word": "fattening",
+    "rhyme": "a "
+   },
+   {
+    "word": "feathery",
+    "rhyme": "e "
+   },
+   {
+    "word": "fortunate",
+    "rhyme": "o "
+   },
+   {
+    "word": "genuine",
+    "rhyme": "e "
+   },
+   {
+    "word": "giveaway",
+    "rhyme": "i "
+   },
+   {
+    "word": "glandular",
+    "rhyme": "a "
+   },
+   {
+    "word": "gossamer",
+    "rhyme": "o "
+   },
+   {
+    "word": "gradual",
+    "rhyme": "a "
+   },
+   {
+    "word": "gullible",
+    "rhyme": "u "
+   },
+   {
+    "word": "harmony",
+    "rhyme": "o "
+   },
+   {
+    "word": "heretic",
+    "rhyme": "e "
+   },
+   {
+    "word": "hesitant",
+    "rhyme": "e "
+   },
+   {
+    "word": "hideous",
+    "rhyme": "i "
+   },
+   {
+    "word": "horsepower",
+    "rhyme": "O "
+   },
+   {
+    "word": "humorous",
+    "rhyme": "U "
+   },
+   {
+    "word": "hypocrite",
+    "rhyme": "i "
+   },
+   {
+    "word": "integral",
+    "rhyme": "i "
+   },
+   {
+    "word": "jittery",
+    "rhyme": "i "
+   },
+   {
+    "word": "justify",
+    "rhyme": "u "
+   },
+   {
+    "word": "laxative",
+    "rhyme": "a "
+   },
+   {
+    "word": "layabout",
+    "rhyme": "A "
+   },
+   {
+    "word": "leveling",
+    "rhyme": "e "
+   },
+   {
+    "word": "leverage",
+    "rhyme": "e "
+   },
+   {
+    "word": "levering",
+    "rhyme": "e "
+   },
+   {
+    "word": "lexical",
+    "rhyme": "e "
+   },
+   {
+    "word": "light-fingered",
+    "rhyme": "I "
+   },
+   {
+    "word": "light-headed",
+    "rhyme": "I "
+   },
+   {
+    "word": "limited",
+    "rhyme": "i "
+   },
+   {
+    "word": "literal",
+    "rhyme": "i "
+   },
+   {
+    "word": "literate",
+    "rhyme": "i "
+   },
+   {
+    "word": "lopsided",
+    "rhyme": "o "
+   },
+   {
+    "word": "mackerel",
+    "rhyme": "a "
+   },
+   {
+    "word": "magical",
+    "rhyme": "a "
+   },
+   {
+    "word": "manacled",
+    "rhyme": "a "
+   },
+   {
+    "word": "mandarin",
+    "rhyme": "a "
+   },
+   {
+    "word": "maniac",
+    "rhyme": "A "
+   },
+   {
+    "word": "manual",
+    "rhyme": "a "
+   },
+   {
+    "word": "medical",
+    "rhyme": "e "
+   },
+   {
+    "word": "megabyte",
+    "rhyme": "e "
+   },
+   {
+    "word": "megalo",
+    "rhyme": "e "
+   },
+   {
+    "word": "menial",
+    "rhyme": "E "
+   },
+   {
+    "word": "merciful",
+    "rhyme": "r "
+   },
+   {
+    "word": "miracles",
+    "rhyme": "E "
+   },
+   {
+    "word": "modular",
+    "rhyme": "o "
+   },
+   {
+    "word": "multiple",
+    "rhyme": "u "
+   },
+   {
+    "word": "musical",
+    "rhyme": "U "
+   },
+   {
+    "word": "mutual",
+    "rhyme": "U "
+   },
+   {
+    "word": "myriad",
+    "rhyme": "E "
+   },
+   {
+    "word": "natural",
+    "rhyme": "a "
+   },
+   {
+    "word": "nebular",
+    "rhyme": "e "
+   },
+   {
+    "word": "nemesis",
+    "rhyme": "e "
+   },
+   {
+    "word": "notable",
+    "rhyme": "O "
+   },
+   {
+    "word": "notary",
+    "rhyme": "O "
+   },
+   {
+    "word": "nuclear",
+    "rhyme": "U "
+   },
+   {
+    "word": "obvious",
+    "rhyme": "o "
+   },
+   {
+    "word": "organized",
+    "rhyme": "O "
+   },
+   {
+    "word": "palatal",
+    "rhyme": "a "
+   },
+   {
+    "word": "passionate",
+    "rhyme": "a "
+   },
+   {
+    "word": "peaceable",
+    "rhyme": "E "
+   },
+   {
+    "word": "policy",
+    "rhyme": "o "
+   },
+   {
+    "word": "ponderous",
+    "rhyme": "o "
+   },
+   {
+    "word": "potable",
+    "rhyme": "O "
+   },
+   {
+    "word": "practical",
+    "rhyme": "a "
+   },
+   {
+    "word": "protean",
+    "rhyme": "O "
+   },
+   {
+    "word": "prurient",
+    "rhyme": "U "
+   },
+   {
+    "word": "puffery",
+    "rhyme": "u "
+   },
+   {
+    "word": "pushbutton",
+    "rhyme": "u "
+   },
+   {
+    "word": "radial",
+    "rhyme": "A "
+   },
+   {
+    "word": "ratio",
+    "rhyme": "A "
+   },
+   {
+    "word": "redbaiting",
+    "rhyme": "e "
+   },
+   {
+    "word": "resident",
+    "rhyme": "e "
+   },
+   {
+    "word": "riotous",
+    "rhyme": "I "
+   },
+   {
+    "word": "ruinous",
+    "rhyme": "U "
+   },
+   {
+    "word": "sandpaper",
+    "rhyme": "a "
+   },
+   {
+    "word": "self-winding",
+    "rhyme": "e "
+   },
+   {
+    "word": "seminal",
+    "rhyme": "e "
+   },
+   {
+    "word": "sensible",
+    "rhyme": "e "
+   },
+   {
+    "word": "sensual",
+    "rhyme": "e "
+   },
+   {
+    "word": "serious",
+    "rhyme": "E "
+   },
+   {
+    "word": "silicon",
+    "rhyme": "in"
+   },
+   {
+    "word": "sinister",
+    "rhyme": "i "
+   },
+   {
+    "word": "skeleton",
+    "rhyme": "e "
+   },
+   {
+    "word": "slobbering",
+    "rhyme": "o "
+   },
+   {
+    "word": "smartaleck",
+    "rhyme": "o "
+   },
+   {
+    "word": "sniveling",
+    "rhyme": "i "
+   },
+   {
+    "word": "sulphorous",
+    "rhyme": "u "
+   },
+   {
+    "word": "tabular",
+    "rhyme": "a "
+   },
+   {
+    "word": "technical",
+    "rhyme": "e "
+   },
+   {
+    "word": "tedium",
+    "rhyme": "E "
+   },
+   {
+    "word": "terminal",
+    "rhyme": "r "
+   },
+   {
+    "word": "titular",
+    "rhyme": "i "
+   },
+   {
+    "word": "trivial",
+    "rhyme": "i "
+   },
+   {
+    "word": "unleaded",
+    "rhyme": "u "
+   },
+   {
+    "word": "various",
+    "rhyme": "A "
+   },
+   {
+    "word": "viable",
+    "rhyme": "I "
+   },
+   {
+    "word": "virtual",
+    "rhyme": "r "
+   }
+  ]
+ },
+ "FT_AF": {
+  "resource_id": 134,
+  "count": 0,
+  "words": []
+ },
+ "FT_IFF": {
+  "resource_id": 135,
+  "count": 214,
+  "words": [
+   {
+    "word": "Aeneas",
+    "rhyme": "E "
+   },
+   {
+    "word": "Calcutta",
+    "rhyme": "u "
+   },
+   {
+    "word": "Egyptian",
+    "rhyme": "i "
+   },
+   {
+    "word": "Hispanic",
+    "rhyme": "a "
+   },
+   {
+    "word": "Israeli",
+    "rhyme": "A "
+   },
+   {
+    "word": "Jamaica",
+    "rhyme": "A "
+   },
+   {
+    "word": "Picasso",
+    "rhyme": "o "
+   },
+   {
+    "word": "abandon",
+    "rhyme": "a "
+   },
+   {
+    "word": "abdominal",
+    "rhyme": "o "
+   },
+   {
+    "word": "aberrant",
+    "rhyme": "e "
+   },
+   {
+    "word": "abolish",
+    "rhyme": "o "
+   },
+   {
+    "word": "absorbent",
+    "rhyme": "O "
+   },
+   {
+    "word": "abundant",
+    "rhyme": "u "
+   },
+   {
+    "word": "abysmal",
+    "rhyme": "i "
+   },
+   {
+    "word": "acidic",
+    "rhyme": "i "
+   },
+   {
+    "word": "acoustic",
+    "rhyme": "U "
+   },
+   {
+    "word": "adjacent",
+    "rhyme": "A "
+   },
+   {
+    "word": "aerobic",
+    "rhyme": "O "
+   },
+   {
+    "word": "aforesaid",
+    "rhyme": "O "
+   },
+   {
+    "word": "alfresco",
+    "rhyme": "e "
+   },
+   {
+    "word": "allergic",
+    "rhyme": "r "
+   },
+   {
+    "word": "already",
+    "rhyme": "e "
+   },
+   {
+    "word": "alumni",
+    "rhyme": "u "
+   },
+   {
+    "word": "ambitious",
+    "rhyme": "i "
+   },
+   {
+    "word": "amoeba",
+    "rhyme": "E "
+   },
+   {
+    "word": "anarchic",
+    "rhyme": "o "
+   },
+   {
+    "word": "another",
+    "rhyme": "o "
+   },
+   {
+    "word": "arcana",
+    "rhyme": "o "
+   },
+   {
+    "word": "arousal",
+    "rhyme": "w "
+   },
+   {
+    "word": "assembly",
+    "rhyme": "e "
+   },
+   {
+    "word": "astraddle",
+    "rhyme": "a "
+   },
+   {
+    "word": "asylum",
+    "rhyme": "I "
+   },
+   {
+    "word": "atonal",
+    "rhyme": "O "
+   },
+   {
+    "word": "atrocious",
+    "rhyme": "O "
+   },
+   {
+    "word": "baptismal",
+    "rhyme": "i "
+   },
+   {
+    "word": "bedazzle",
+    "rhyme": "a "
+   },
+   {
+    "word": "befallen",
+    "rhyme": "o "
+   },
+   {
+    "word": "beplastered",
+    "rhyme": "a "
+   },
+   {
+    "word": "besetting",
+    "rhyme": "e "
+   },
+   {
+    "word": "bestowal",
+    "rhyme": "O "
+   },
+   {
+    "word": "betrothal",
+    "rhyme": "o "
+   },
+   {
+    "word": "bicuspid",
+    "rhyme": "u "
+   },
+   {
+    "word": "bilingual",
+    "rhyme": "i "
+   },
+   {
+    "word": "biotic",
+    "rhyme": "o "
+   },
+   {
+    "word": "bitumen",
+    "rhyme": "U "
+   },
+   {
+    "word": "biweekly",
+    "rhyme": "E "
+   },
+   {
+    "word": "bonanza",
+    "rhyme": "a "
+   },
+   {
+    "word": "bubonic",
+    "rhyme": "o "
+   },
+   {
+    "word": "cadaver",
+    "rhyme": "a "
+   },
+   {
+    "word": "cantata",
+    "rhyme": "o "
+   },
+   {
+    "word": "catharsis",
+    "rhyme": "o "
+   },
+   {
+    "word": "columnar",
+    "rhyme": "u "
+   },
+   {
+    "word": "compulsive",
+    "rhyme": "u "
+   },
+   {
+    "word": "computer",
+    "rhyme": "U "
+   },
+   {
+    "word": "concurrent",
+    "rhyme": "r "
+   },
+   {
+    "word": "contingent",
+    "rhyme": "i "
+   },
+   {
+    "word": "damnation",
+    "rhyme": "A "
+   },
+   {
+    "word": "debugger",
+    "rhyme": "u "
+   },
+   {
+    "word": "decision",
+    "rhyme": "i "
+   },
+   {
+    "word": "defective",
+    "rhyme": "e "
+   },
+   {
+    "word": "defensive",
+    "rhyme": "e "
+   },
+   {
+    "word": "delicious",
+    "rhyme": "i "
+   },
+   {
+    "word": "demeaning",
+    "rhyme": "E "
+   },
+   {
+    "word": "denatured",
+    "rhyme": "A "
+   },
+   {
+    "word": "denial",
+    "rhyme": "I "
+   },
+   {
+    "word": "depressing",
+    "rhyme": "e "
+   },
+   {
+    "word": "detested",
+    "rhyme": "e "
+   },
+   {
+    "word": "developed",
+    "rhyme": "e "
+   },
+   {
+    "word": "devouring",
+    "rhyme": "w "
+   },
+   {
+    "word": "disposal",
+    "rhyme": "O "
+   },
+   {
+    "word": "dissension",
+    "rhyme": "e "
+   },
+   {
+    "word": "distended",
+    "rhyme": "e "
+   },
+   {
+    "word": "distortion",
+    "rhyme": "O "
+   },
+   {
+    "word": "divisive",
+    "rhyme": "I "
+   },
+   {
+    "word": "dynastic",
+    "rhyme": "a "
+   },
+   {
+    "word": "eclectic",
+    "rhyme": "e "
+   },
+   {
+    "word": "elaborate",
+    "rhyme": "a "
+   },
+   {
+    "word": "elastic",
+    "rhyme": "a "
+   },
+   {
+    "word": "electric",
+    "rhyme": "e "
+   },
+   {
+    "word": "elliptic",
+    "rhyme": "i "
+   },
+   {
+    "word": "embargo",
+    "rhyme": "o "
+   },
+   {
+    "word": "embedded",
+    "rhyme": "e "
+   },
+   {
+    "word": "emitter",
+    "rhyme": "i "
+   },
+   {
+    "word": "emphatic",
+    "rhyme": "a "
+   },
+   {
+    "word": "emulsion",
+    "rhyme": "u "
+   },
+   {
+    "word": "enamel",
+    "rhyme": "a "
+   },
+   {
+    "word": "encipher",
+    "rhyme": "I "
+   },
+   {
+    "word": "enfeeble",
+    "rhyme": "E "
+   },
+   {
+    "word": "environ",
+    "rhyme": "I "
+   },
+   {
+    "word": "erosive",
+    "rhyme": "O "
+   },
+   {
+    "word": "erotic",
+    "rhyme": "o "
+   },
+   {
+    "word": "erratic",
+    "rhyme": "a "
+   },
+   {
+    "word": "establish",
+    "rhyme": "a "
+   },
+   {
+    "word": "eugenic",
+    "rhyme": "e "
+   },
+   {
+    "word": "euphoric",
+    "rhyme": "O "
+   },
+   {
+    "word": "eureka",
+    "rhyme": "E "
+   },
+   {
+    "word": "eurhythmic",
+    "rhyme": "i "
+   },
+   {
+    "word": "examine",
+    "rhyme": "a "
+   },
+   {
+    "word": "excessive",
+    "rhyme": "e "
+   },
+   {
+    "word": "exciting",
+    "rhyme": "I "
+   },
+   {
+    "word": "exhausted",
+    "rhyme": "o "
+   },
+   {
+    "word": "exotic",
+    "rhyme": "o "
+   },
+   {
+    "word": "expectant",
+    "rhyme": "e "
+   },
+   {
+    "word": "facetious",
+    "rhyme": "E "
+   },
+   {
+    "word": "falsetto",
+    "rhyme": "e "
+   },
+   {
+    "word": "fiasco",
+    "rhyme": "a "
+   },
+   {
+    "word": "fibrosis",
+    "rhyme": "O "
+   },
+   {
+    "word": "finale",
+    "rhyme": "a "
+   },
+   {
+    "word": "forever",
+    "rhyme": "e "
+   },
+   {
+    "word": "forgiven",
+    "rhyme": "i "
+   },
+   {
+    "word": "forsaken",
+    "rhyme": "A "
+   },
+   {
+    "word": "frenetic",
+    "rhyme": "e "
+   },
+   {
+    "word": "generic",
+    "rhyme": "e "
+   },
+   {
+    "word": "genetic",
+    "rhyme": "e "
+   },
+   {
+    "word": "heuristic",
+    "rhyme": "i "
+   },
+   {
+    "word": "hibiscus",
+    "rhyme": "i "
+   },
+   {
+    "word": "historic",
+    "rhyme": "O "
+   },
+   {
+    "word": "hosanna",
+    "rhyme": "a "
+   },
+   {
+    "word": "hypnotic",
+    "rhyme": "o "
+   },
+   {
+    "word": "hysteric",
+    "rhyme": "e "
+   },
+   {
+    "word": "illegal",
+    "rhyme": "E "
+   },
+   {
+    "word": "illicit",
+    "rhyme": "i "
+   },
+   {
+    "word": "illiterate",
+    "rhyme": "i "
+   },
+   {
+    "word": "illusion",
+    "rhyme": "U "
+   },
+   {
+    "word": "imagining",
+    "rhyme": "a "
+   },
+   {
+    "word": "immodest",
+    "rhyme": "o "
+   },
+   {
+    "word": "imploring",
+    "rhyme": "O "
+   },
+   {
+    "word": "impression",
+    "rhyme": "e "
+   },
+   {
+    "word": "impromptu",
+    "rhyme": "o "
+   },
+   {
+    "word": "incompetent",
+    "rhyme": "eG"
+   },
+   {
+    "word": "incongruous",
+    "rhyme": "us"
+   },
+   {
+    "word": "increasing",
+    "rhyme": "E "
+   },
+   {
+    "word": "indignant",
+    "rhyme": "i "
+   },
+   {
+    "word": "indulgent",
+    "rhyme": "u "
+   },
+   {
+    "word": "inferno",
+    "rhyme": "r "
+   },
+   {
+    "word": "infrequent",
+    "rhyme": "E "
+   },
+   {
+    "word": "ingenious",
+    "rhyme": "E "
+   },
+   {
+    "word": "inspiring",
+    "rhyme": "I "
+   },
+   {
+    "word": "intrinsic",
+    "rhyme": "i "
+   },
+   {
+    "word": "ironic",
+    "rhyme": "o "
+   },
+   {
+    "word": "karate",
+    "rhyme": "o "
+   },
+   {
+    "word": "kinetic",
+    "rhyme": "e "
+   },
+   {
+    "word": "linguistic",
+    "rhyme": "i "
+   },
+   {
+    "word": "machinelike",
+    "rhyme": "E "
+   },
+   {
+    "word": "machismo",
+    "rhyme": "i "
+   },
+   {
+    "word": "magnetic",
+    "rhyme": "e "
+   },
+   {
+    "word": "malignant",
+    "rhyme": "i "
+   },
+   {
+    "word": "malpractice",
+    "rhyme": "a "
+   },
+   {
+    "word": "material",
+    "rhyme": "E "
+   },
+   {
+    "word": "monastic",
+    "rhyme": "a "
+   },
+   {
+    "word": "myopic",
+    "rhyme": "o "
+   },
+   {
+    "word": "narcotic",
+    "rhyme": "o "
+   },
+   {
+    "word": "neurosis",
+    "rhyme": "O "
+   },
+   {
+    "word": "obsessive",
+    "rhyme": "e "
+   },
+   {
+    "word": "official",
+    "rhyme": "i "
+   },
+   {
+    "word": "omega",
+    "rhyme": "e "
+   },
+   {
+    "word": "omniscient",
+    "rhyme": "i "
+   },
+   {
+    "word": "pathetic",
+    "rhyme": "e "
+   },
+   {
+    "word": "performance",
+    "rhyme": "o "
+   },
+   {
+    "word": "permissive",
+    "rhyme": "i "
+   },
+   {
+    "word": "peroxide",
+    "rhyme": "o "
+   },
+   {
+    "word": "persona",
+    "rhyme": "O "
+   },
+   {
+    "word": "perusal",
+    "rhyme": "U "
+   },
+   {
+    "word": "piano",
+    "rhyme": "a "
+   },
+   {
+    "word": "pictorial",
+    "rhyme": "O "
+   },
+   {
+    "word": "platonic",
+    "rhyme": "o "
+   },
+   {
+    "word": "plebian",
+    "rhyme": "E "
+   },
+   {
+    "word": "pneumatic",
+    "rhyme": "a "
+   },
+   {
+    "word": "pollution",
+    "rhyme": "U "
+   },
+   {
+    "word": "pooh-poohing",
+    "rhyme": "U "
+   },
+   {
+    "word": "post facto",
+    "rhyme": "a "
+   },
+   {
+    "word": "potential",
+    "rhyme": "e "
+   },
+   {
+    "word": "preemptive",
+    "rhyme": "e "
+   },
+   {
+    "word": "procedures",
+    "rhyme": "E "
+   },
+   {
+    "word": "production",
+    "rhyme": "u "
+   },
+   {
+    "word": "projectile",
+    "rhyme": "e "
+   },
+   {
+    "word": "promiscuous",
+    "rhyme": "us"
+   },
+   {
+    "word": "prophetic",
+    "rhyme": "e "
+   },
+   {
+    "word": "prosthetic",
+    "rhyme": "e "
+   },
+   {
+    "word": "psychosis",
+    "rhyme": "O "
+   },
+   {
+    "word": "recessive",
+    "rhyme": "e "
+   },
+   {
+    "word": "recursive",
+    "rhyme": "r "
+   },
+   {
+    "word": "regressive",
+    "rhyme": "e "
+   },
+   {
+    "word": "religion",
+    "rhyme": "i "
+   },
+   {
+    "word": "reluctant",
+    "rhyme": "u "
+   },
+   {
+    "word": "repellent",
+    "rhyme": "e "
+   },
+   {
+    "word": "resultant",
+    "rhyme": "u "
+   },
+   {
+    "word": "retardant",
+    "rhyme": "o "
+   },
+   {
+    "word": "revealing",
+    "rhyme": "E "
+   },
+   {
+    "word": "reversion",
+    "rhyme": "r "
+   },
+   {
+    "word": "rhapsodic",
+    "rhyme": "o "
+   },
+   {
+    "word": "robotic",
+    "rhyme": "o "
+   },
+   {
+    "word": "sadistic",
+    "rhyme": "i "
+   },
+   {
+    "word": "sarcastic",
+    "rhyme": "a "
+   },
+   {
+    "word": "satanic",
+    "rhyme": "a "
+   },
+   {
+    "word": "self-pitying",
+    "rhyme": "i "
+   },
+   {
+    "word": "semantic",
+    "rhyme": "a "
+   },
+   {
+    "word": "spaghetti",
+    "rhyme": "e "
+   },
+   {
+    "word": "statistics",
+    "rhyme": "i "
+   },
+   {
+    "word": "subpoenas",
+    "rhyme": "E "
+   },
+   {
+    "word": "subsuming",
+    "rhyme": "U "
+   },
+   {
+    "word": "suburban",
+    "rhyme": "r "
+   },
+   {
+    "word": "syllabic",
+    "rhyme": "a "
+   },
+   {
+    "word": "symbolic",
+    "rhyme": "o "
+   },
+   {
+    "word": "symphonic",
+    "rhyme": "o "
+   },
+   {
+    "word": "syntactic",
+    "rhyme": "a "
+   },
+   {
+    "word": "systemic",
+    "rhyme": "e "
+   },
+   {
+    "word": "thereafter",
+    "rhyme": "a "
+   },
+   {
+    "word": "transvestite",
+    "rhyme": "e "
+   },
+   {
+    "word": "uncanny",
+    "rhyme": "a "
+   },
+   {
+    "word": "uncharted",
+    "rhyme": "o "
+   },
+   {
+    "word": "ungathered",
+    "rhyme": "a "
+   },
+   {
+    "word": "ungodly",
+    "rhyme": "o "
+   },
+   {
+    "word": "unwieldy",
+    "rhyme": "E "
+   }
+  ]
+ },
+ "FT_IIF": {
+  "resource_id": 136,
+  "count": 82,
+  "words": [
+   {
+    "word": "Neanderthal",
+    "rhyme": "ol"
+   },
+   {
+    "word": "Objective C",
+    "rhyme": "E "
+   },
+   {
+    "word": "ad nauseum",
+    "rhyme": "um"
+   },
+   {
+    "word": "ambrosial",
+    "rhyme": "ul"
+   },
+   {
+    "word": "amphetamine",
+    "rhyme": "En"
+   },
+   {
+    "word": "amphibious",
+    "rhyme": "us"
+   },
+   {
+    "word": "analogy",
+    "rhyme": "E "
+   },
+   {
+    "word": "analysis",
+    "rhyme": "is"
+   },
+   {
+    "word": "asynchronous",
+    "rhyme": "us"
+   },
+   {
+    "word": "audacity",
+    "rhyme": "E "
+   },
+   {
+    "word": "avoirdupois",
+    "rhyme": "o "
+   },
+   {
+    "word": "bacterial",
+    "rhyme": "ul"
+   },
+   {
+    "word": "cacophony",
+    "rhyme": "E "
+   },
+   {
+    "word": "calamitous",
+    "rhyme": "us"
+   },
+   {
+    "word": "centrifugal",
+    "rhyme": "ul"
+   },
+   {
+    "word": "chrysanthemum",
+    "rhyme": "um"
+   },
+   {
+    "word": "community",
+    "rhyme": "E "
+   },
+   {
+    "word": "conceptual",
+    "rhyme": "ul"
+   },
+   {
+    "word": "debility",
+    "rhyme": "E "
+   },
+   {
+    "word": "declassify",
+    "rhyme": "I "
+   },
+   {
+    "word": "delirious",
+    "rhyme": "us"
+   },
+   {
+    "word": "demoniac",
+    "rhyme": "ac"
+   },
+   {
+    "word": "demonstrable",
+    "rhyme": "ul"
+   },
+   {
+    "word": "disconsolate",
+    "rhyme": "et"
+   },
+   {
+    "word": "dissociable",
+    "rhyme": "ul"
+   },
+   {
+    "word": "divestiture",
+    "rhyme": "Ur"
+   },
+   {
+    "word": "emeritus",
+    "rhyme": "us"
+   },
+   {
+    "word": "emotional",
+    "rhyme": "ul"
+   },
+   {
+    "word": "enlightenment",
+    "rhyme": "eG"
+   },
+   {
+    "word": "environment",
+    "rhyme": "eG"
+   },
+   {
+    "word": "ephemeral",
+    "rhyme": "ul"
+   },
+   {
+    "word": "epitome",
+    "rhyme": "E "
+   },
+   {
+    "word": "esophagi",
+    "rhyme": "I "
+   },
+   {
+    "word": "eternity",
+    "rhyme": "E "
+   },
+   {
+    "word": "exceptional",
+    "rhyme": "ul"
+   },
+   {
+    "word": "executive",
+    "rhyme": "iv"
+   },
+   {
+    "word": "exemplify",
+    "rhyme": "I "
+   },
+   {
+    "word": "extravagant",
+    "rhyme": "aG"
+   },
+   {
+    "word": "habitual",
+    "rhyme": "ul"
+   },
+   {
+    "word": "humanity",
+    "rhyme": "E "
+   },
+   {
+    "word": "humiliate",
+    "rhyme": "At"
+   },
+   {
+    "word": "hypotheses",
+    "rhyme": "Ez"
+   },
+   {
+    "word": "hysterical",
+    "rhyme": "ol"
+   },
+   {
+    "word": "identical",
+    "rhyme": "e "
+   },
+   {
+    "word": "impregnable",
+    "rhyme": "ul"
+   },
+   {
+    "word": "inadequate",
+    "rhyme": "et"
+   },
+   {
+    "word": "incarnadine",
+    "rhyme": "En"
+   },
+   {
+    "word": "incestuous",
+    "rhyme": "us"
+   },
+   {
+    "word": "indelible",
+    "rhyme": "ul"
+   },
+   {
+    "word": "ineffable",
+    "rhyme": "ul"
+   },
+   {
+    "word": "inferior",
+    "rhyme": "rr"
+   },
+   {
+    "word": "inflexible",
+    "rhyme": "ul"
+   },
+   {
+    "word": "insatiable",
+    "rhyme": "ul"
+   },
+   {
+    "word": "intuitive",
+    "rhyme": "iv"
+   },
+   {
+    "word": "laborious",
+    "rhyme": "us"
+   },
+   {
+    "word": "morphology",
+    "rhyme": "E "
+   },
+   {
+    "word": "oblivion",
+    "rhyme": "un"
+   },
+   {
+    "word": "oblivious",
+    "rhyme": "us"
+   },
+   {
+    "word": "paralysis",
+    "rhyme": "is"
+   },
+   {
+    "word": "particular",
+    "rhyme": "or"
+   },
+   {
+    "word": "perceptual",
+    "rhyme": "ul"
+   },
+   {
+    "word": "philosophy",
+    "rhyme": "E "
+   },
+   {
+    "word": "politico",
+    "rhyme": "O "
+   },
+   {
+    "word": "premarital",
+    "rhyme": "ul"
+   },
+   {
+    "word": "professional",
+    "rhyme": "ul"
+   },
+   {
+    "word": "programmable",
+    "rhyme": "ul"
+   },
+   {
+    "word": "prohibitive",
+    "rhyme": "iv"
+   },
+   {
+    "word": "proverbial",
+    "rhyme": "rl"
+   },
+   {
+    "word": "quadruplicate",
+    "rhyme": "ut"
+   },
+   {
+    "word": "rabbinical",
+    "rhyme": "ul"
+   },
+   {
+    "word": "reality",
+    "rhyme": "E "
+   },
+   {
+    "word": "recappable",
+    "rhyme": "ul"
+   },
+   {
+    "word": "reciprocal",
+    "rhyme": "ul"
+   },
+   {
+    "word": "recombinant",
+    "rhyme": "eG"
+   },
+   {
+    "word": "reducible",
+    "rhyme": "ul"
+   },
+   {
+    "word": "redundancies",
+    "rhyme": "Ez"
+   },
+   {
+    "word": "society",
+    "rhyme": "E "
+   },
+   {
+    "word": "superfluous",
+    "rhyme": "us"
+   },
+   {
+    "word": "ulterior",
+    "rhyme": "rr"
+   },
+   {
+    "word": "unanimous",
+    "rhyme": "us"
+   },
+   {
+    "word": "vicarious",
+    "rhyme": "us"
+   },
+   {
+    "word": "voluptuous",
+    "rhyme": "us"
+   }
+  ]
+ },
+ "FT_TTF": {
+  "resource_id": 137,
+  "count": 97,
+  "words": [
+   {
+    "word": "Caribbean",
+    "rhyme": "E "
+   },
+   {
+    "word": "Elvis Presley",
+    "rhyme": "e "
+   },
+   {
+    "word": "Maharishi",
+    "rhyme": "E "
+   },
+   {
+    "word": "Scandinavian",
+    "rhyme": "A "
+   },
+   {
+    "word": "Vax 750",
+    "rhyme": "i "
+   },
+   {
+    "word": "a priori",
+    "rhyme": "O "
+   },
+   {
+    "word": "alcoholic",
+    "rhyme": "o "
+   },
+   {
+    "word": "algorithmic",
+    "rhyme": "i "
+   },
+   {
+    "word": "altogether",
+    "rhyme": "e "
+   },
+   {
+    "word": "anaerobic",
+    "rhyme": "O "
+   },
+   {
+    "word": "antimissile",
+    "rhyme": "i "
+   },
+   {
+    "word": "applications",
+    "rhyme": "A "
+   },
+   {
+    "word": "aquaplaning",
+    "rhyme": "A "
+   },
+   {
+    "word": "aspidistra",
+    "rhyme": "i "
+   },
+   {
+    "word": "atavistic",
+    "rhyme": "i "
+   },
+   {
+    "word": "automata",
+    "rhyme": "a "
+   },
+   {
+    "word": "ballerina",
+    "rhyme": "E "
+   },
+   {
+    "word": "biorhythmic",
+    "rhyme": "i "
+   },
+   {
+    "word": "carbonated",
+    "rhyme": "A "
+   },
+   {
+    "word": "carcinoma",
+    "rhyme": "O "
+   },
+   {
+    "word": "categoric",
+    "rhyme": "O "
+   },
+   {
+    "word": "chiropractor",
+    "rhyme": "a "
+   },
+   {
+    "word": "coronary",
+    "rhyme": "e "
+   },
+   {
+    "word": "cryogenic",
+    "rhyme": "e "
+   },
+   {
+    "word": "diagnostic",
+    "rhyme": "o "
+   },
+   {
+    "word": "distribution",
+    "rhyme": "U "
+   },
+   {
+    "word": "double density",
+    "rhyme": "e "
+   },
+   {
+    "word": "double standard",
+    "rhyme": "a "
+   },
+   {
+    "word": "dynamism",
+    "rhyme": "i "
+   },
+   {
+    "word": "economics",
+    "rhyme": "o "
+   },
+   {
+    "word": "ecosystem",
+    "rhyme": "i "
+   },
+   {
+    "word": "education",
+    "rhyme": "A "
+   },
+   {
+    "word": "emphysema",
+    "rhyme": "E "
+   },
+   {
+    "word": "enigmatic",
+    "rhyme": "a "
+   },
+   {
+    "word": "epileptic",
+    "rhyme": "e "
+   },
+   {
+    "word": "equidistant",
+    "rhyme": "i "
+   },
+   {
+    "word": "euphemism",
+    "rhyme": "i "
+   },
+   {
+    "word": "extroverted",
+    "rhyme": "r "
+   },
+   {
+    "word": "fashionable",
+    "rhyme": "u "
+   },
+   {
+    "word": "filibuster",
+    "rhyme": "u "
+   },
+   {
+    "word": "furioso",
+    "rhyme": "O "
+   },
+   {
+    "word": "geodesic",
+    "rhyme": "E "
+   },
+   {
+    "word": "graduation",
+    "rhyme": "A "
+   },
+   {
+    "word": "heavy-duty",
+    "rhyme": "U "
+   },
+   {
+    "word": "heavy-lidded",
+    "rhyme": "i "
+   },
+   {
+    "word": "hedonism",
+    "rhyme": "i "
+   },
+   {
+    "word": "hot tomato",
+    "rhyme": "A "
+   },
+   {
+    "word": "hyperbolic",
+    "rhyme": "o "
+   },
+   {
+    "word": "hyperthyroid",
+    "rhyme": "I "
+   },
+   {
+    "word": "idiotic",
+    "rhyme": "o "
+   },
+   {
+    "word": "indigestion",
+    "rhyme": "e "
+   },
+   {
+    "word": "lackadaisic",
+    "rhyme": "A "
+   },
+   {
+    "word": "luminary",
+    "rhyme": "e "
+   },
+   {
+    "word": "maladaptive",
+    "rhyme": "a "
+   },
+   {
+    "word": "maladjusted",
+    "rhyme": "a "
+   },
+   {
+    "word": "mediocre",
+    "rhyme": "O "
+   },
+   {
+    "word": "melancholy",
+    "rhyme": "o "
+   },
+   {
+    "word": "melodrama",
+    "rhyme": "o "
+   },
+   {
+    "word": "metabolic",
+    "rhyme": "o "
+   },
+   {
+    "word": "metaphoric",
+    "rhyme": "o "
+   },
+   {
+    "word": "meteoric",
+    "rhyme": "O "
+   },
+   {
+    "word": "namby-pamby",
+    "rhyme": "a "
+   },
+   {
+    "word": "necessary",
+    "rhyme": "A "
+   },
+   {
+    "word": "nonexistent",
+    "rhyme": "i "
+   },
+   {
+    "word": "nuclear winter",
+    "rhyme": "i "
+   },
+   {
+    "word": "opposition",
+    "rhyme": "i "
+   },
+   {
+    "word": "ordinary",
+    "rhyme": "e "
+   },
+   {
+    "word": "oriental",
+    "rhyme": "e "
+   },
+   {
+    "word": "ostracism",
+    "rhyme": "i "
+   },
+   {
+    "word": "paranormal",
+    "rhyme": "O "
+   },
+   {
+    "word": "parasitic",
+    "rhyme": "i "
+   },
+   {
+    "word": "pathogenic",
+    "rhyme": "e "
+   },
+   {
+    "word": "pepperoni",
+    "rhyme": "O "
+   },
+   {
+    "word": "persecution",
+    "rhyme": "U "
+   },
+   {
+    "word": "pizzicato",
+    "rhyme": "o "
+   },
+   {
+    "word": "polystyrene",
+    "rhyme": "I "
+   },
+   {
+    "word": "polytechnic",
+    "rhyme": "e "
+   },
+   {
+    "word": "psychiatric",
+    "rhyme": "a "
+   },
+   {
+    "word": "pyrotechnic",
+    "rhyme": "e "
+   },
+   {
+    "word": "quadroplegic",
+    "rhyme": "E "
+   },
+   {
+    "word": "rack and pinion",
+    "rhyme": "i "
+   },
+   {
+    "word": "rockabilly",
+    "rhyme": "i "
+   },
+   {
+    "word": "sanitary",
+    "rhyme": "A "
+   },
+   {
+    "word": "scientific",
+    "rhyme": "i "
+   },
+   {
+    "word": "semifinal",
+    "rhyme": "I "
+   },
+   {
+    "word": "solipsism",
+    "rhyme": "i "
+   },
+   {
+    "word": "statutory",
+    "rhyme": "O "
+   },
+   {
+    "word": "syllogism",
+    "rhyme": "i "
+   },
+   {
+    "word": "symbiosis",
+    "rhyme": "O "
+   },
+   {
+    "word": "symptomatic",
+    "rhyme": "a "
+   },
+   {
+    "word": "synergism",
+    "rhyme": "i "
+   },
+   {
+    "word": "temporary",
+    "rhyme": "A "
+   },
+   {
+    "word": "theoretic",
+    "rhyme": "e "
+   },
+   {
+    "word": "transcendental",
+    "rhyme": "e "
+   },
+   {
+    "word": "virtuoso",
+    "rhyme": "O "
+   },
+   {
+    "word": "visionary",
+    "rhyme": "A "
+   },
+   {
+    "word": "vox humana",
+    "rhyme": "a "
+   }
+  ]
+ },
+ "FT_IIFF": {
+  "resource_id": 138,
+  "count": 5,
+  "words": [
+   {
+    "word": "ad infinitum",
+    "rhyme": "I "
+   },
+   {
+    "word": "decaffeinated",
+    "rhyme": "A "
+   },
+   {
+    "word": "imaginary",
+    "rhyme": "A "
+   },
+   {
+    "word": "inflammatory",
+    "rhyme": "O "
+   },
+   {
+    "word": "involuntary",
+    "rhyme": "A "
+   }
+  ]
+ },
+ "FT_TDF": {
+  "resource_id": 139,
+  "count": 1,
+  "words": [
+   {
+    "word": "BMW",
+    "rhyme": "u "
+   }
+  ]
+ },
+ "FT_HIF": {
+  "resource_id": 140,
+  "count": 135,
+  "words": [
+   {
+    "word": "Babylon",
+    "rhyme": "on"
+   },
+   {
+    "word": "Byzantine",
+    "rhyme": "En"
+   },
+   {
+    "word": "IBM",
+    "rhyme": "em"
+   },
+   {
+    "word": "Japanese",
+    "rhyme": "Ez"
+   },
+   {
+    "word": "MBA",
+    "rhyme": "A "
+   },
+   {
+    "word": "MIT",
+    "rhyme": "E "
+   },
+   {
+    "word": "Marrakesh",
+    "rhyme": "eA"
+   },
+   {
+    "word": "Odyssey",
+    "rhyme": "E "
+   },
+   {
+    "word": "Oedipus",
+    "rhyme": "us"
+   },
+   {
+    "word": "VCR",
+    "rhyme": "or"
+   },
+   {
+    "word": "abdicate",
+    "rhyme": "At"
+   },
+   {
+    "word": "absentee",
+    "rhyme": "E "
+   },
+   {
+    "word": "acrobat",
+    "rhyme": "at"
+   },
+   {
+    "word": "aerosol",
+    "rhyme": "ol"
+   },
+   {
+    "word": "aftermath",
+    "rhyme": "aL"
+   },
+   {
+    "word": "allocates",
+    "rhyme": "AM"
+   },
+   {
+    "word": "apogee",
+    "rhyme": "E "
+   },
+   {
+    "word": "apricot",
+    "rhyme": "ot"
+   },
+   {
+    "word": "artichoke",
+    "rhyme": "Oc"
+   },
+   {
+    "word": "ballyhoo",
+    "rhyme": "U "
+   },
+   {
+    "word": "barbecue",
+    "rhyme": "U "
+   },
+   {
+    "word": "baritone",
+    "rhyme": "On"
+   },
+   {
+    "word": "baroness",
+    "rhyme": "es"
+   },
+   {
+    "word": "bas relief",
+    "rhyme": "Ef"
+   },
+   {
+    "word": "bathing suit",
+    "rhyme": "Ut"
+   },
+   {
+    "word": "biomass",
+    "rhyme": "as"
+   },
+   {
+    "word": "blasphemy",
+    "rhyme": "E "
+   },
+   {
+    "word": "bodybag",
+    "rhyme": "ag"
+   },
+   {
+    "word": "bordelaise",
+    "rhyme": "Az"
+   },
+   {
+    "word": "breakable",
+    "rhyme": "ul"
+   },
+   {
+    "word": "brouhaha",
+    "rhyme": "o "
+   },
+   {
+    "word": "bulletproof",
+    "rhyme": "Uf"
+   },
+   {
+    "word": "burglarproof",
+    "rhyme": "Uf"
+   },
+   {
+    "word": "cataract",
+    "rhyme": "aP"
+   },
+   {
+    "word": "chaperones",
+    "rhyme": "Os"
+   },
+   {
+    "word": "chimpanzee",
+    "rhyme": "E "
+   },
+   {
+    "word": "chloroform",
+    "rhyme": "OQ"
+   },
+   {
+    "word": "claire de lune",
+    "rhyme": "Un"
+   },
+   {
+    "word": "comic book",
+    "rhyme": "uc"
+   },
+   {
+    "word": "compromised",
+    "rhyme": "Iz"
+   },
+   {
+    "word": "database",
+    "rhyme": "As"
+   },
+   {
+    "word": "dinosaur",
+    "rhyme": "Or"
+   },
+   {
+    "word": "drug induced",
+    "rhyme": "UB"
+   },
+   {
+    "word": "ecstasy",
+    "rhyme": "E "
+   },
+   {
+    "word": "emigree",
+    "rhyme": "A "
+   },
+   {
+    "word": "enterprise",
+    "rhyme": "Iz"
+   },
+   {
+    "word": "epitaph",
+    "rhyme": "af"
+   },
+   {
+    "word": "execute",
+    "rhyme": "Ut"
+   },
+   {
+    "word": "expertise",
+    "rhyme": "Ez"
+   },
+   {
+    "word": "fantasist",
+    "rhyme": "iB"
+   },
+   {
+    "word": "feasible",
+    "rhyme": "ul"
+   },
+   {
+    "word": "figurine",
+    "rhyme": "En"
+   },
+   {
+    "word": "filial",
+    "rhyme": "ul"
+   },
+   {
+    "word": "flyaway",
+    "rhyme": "A "
+   },
+   {
+    "word": "formula",
+    "rhyme": "o "
+   },
+   {
+    "word": "guarantee",
+    "rhyme": "E "
+   },
+   {
+    "word": "guinea pig",
+    "rhyme": "ig"
+   },
+   {
+    "word": "helplessly",
+    "rhyme": "E "
+   },
+   {
+    "word": "histogram",
+    "rhyme": "am"
+   },
+   {
+    "word": "hollandaise",
+    "rhyme": "Az"
+   },
+   {
+    "word": "honky-tonk",
+    "rhyme": "oF"
+   },
+   {
+    "word": "horrify",
+    "rhyme": "I "
+   },
+   {
+    "word": "implement",
+    "rhyme": "eG"
+   },
+   {
+    "word": "indisposed",
+    "rhyme": "Os"
+   },
+   {
+    "word": "infantile",
+    "rhyme": "Il"
+   },
+   {
+    "word": "innermost",
+    "rhyme": "OB"
+   },
+   {
+    "word": "insolent",
+    "rhyme": "eG"
+   },
+   {
+    "word": "lazybones",
+    "rhyme": "Os"
+   },
+   {
+    "word": "lethargy",
+    "rhyme": "E "
+   },
+   {
+    "word": "liaison",
+    "rhyme": "on"
+   },
+   {
+    "word": "magazine",
+    "rhyme": "En"
+   },
+   {
+    "word": "malcontent",
+    "rhyme": "eG"
+   },
+   {
+    "word": "masking tape",
+    "rhyme": "Ap"
+   },
+   {
+    "word": "masterpiece",
+    "rhyme": "Es"
+   },
+   {
+    "word": "maximal",
+    "rhyme": "ul"
+   },
+   {
+    "word": "melody",
+    "rhyme": "E "
+   },
+   {
+    "word": "mickeymouse",
+    "rhyme": "ws"
+   },
+   {
+    "word": "misanthrope",
+    "rhyme": "Op"
+   },
+   {
+    "word": "mortified",
+    "rhyme": "Id"
+   },
+   {
+    "word": "multiplex",
+    "rhyme": "ex"
+   },
+   {
+    "word": "musclebound",
+    "rhyme": "wH"
+   },
+   {
+    "word": "naivete",
+    "rhyme": "A "
+   },
+   {
+    "word": "neoprene",
+    "rhyme": "En"
+   },
+   {
+    "word": "nondescript",
+    "rhyme": "iS"
+   },
+   {
+    "word": "nonetheless",
+    "rhyme": "es"
+   },
+   {
+    "word": "open mouth",
+    "rhyme": "wL"
+   },
+   {
+    "word": "open-faced",
+    "rhyme": "AB"
+   },
+   {
+    "word": "optima",
+    "rhyme": "u "
+   },
+   {
+    "word": "orchestrate",
+    "rhyme": "At"
+   },
+   {
+    "word": "ossify",
+    "rhyme": "I "
+   },
+   {
+    "word": "otherwise",
+    "rhyme": "Iz"
+   },
+   {
+    "word": "out of shape",
+    "rhyme": "Ap"
+   },
+   {
+    "word": "overhang",
+    "rhyme": "ag"
+   },
+   {
+    "word": "overwound",
+    "rhyme": "wH"
+   },
+   {
+    "word": "palpable",
+    "rhyme": "ul"
+   },
+   {
+    "word": "pantheist",
+    "rhyme": "iB"
+   },
+   {
+    "word": "paperwork",
+    "rhyme": "rc"
+   },
+   {
+    "word": "parallel",
+    "rhyme": "el"
+   },
+   {
+    "word": "paramount",
+    "rhyme": "wG"
+   },
+   {
+    "word": "paranoid",
+    "rhyme": "yd"
+   },
+   {
+    "word": "photograph",
+    "rhyme": "af"
+   },
+   {
+    "word": "piracy",
+    "rhyme": "E "
+   },
+   {
+    "word": "pizza-faced",
+    "rhyme": "AB"
+   },
+   {
+    "word": "plagiarize",
+    "rhyme": "Iz"
+   },
+   {
+    "word": "platitude",
+    "rhyme": "Ud"
+   },
+   {
+    "word": "polaroid",
+    "rhyme": "yd"
+   },
+   {
+    "word": "pressurized",
+    "rhyme": "Id"
+   },
+   {
+    "word": "purgative",
+    "rhyme": "rv"
+   },
+   {
+    "word": "radical",
+    "rhyme": "ul"
+   },
+   {
+    "word": "rancorous",
+    "rhyme": "us"
+   },
+   {
+    "word": "razor-blade",
+    "rhyme": "A "
+   },
+   {
+    "word": "rectified",
+    "rhyme": "Id"
+   },
+   {
+    "word": "rock 'n' roll",
+    "rhyme": "Ol"
+   },
+   {
+    "word": "runaway",
+    "rhyme": "A "
+   },
+   {
+    "word": "satiable",
+    "rhyme": "ul"
+   },
+   {
+    "word": "scrutiny",
+    "rhyme": "E "
+   },
+   {
+    "word": "seminar",
+    "rhyme": "or"
+   },
+   {
+    "word": "simulcast",
+    "rhyme": "aB"
+   },
+   {
+    "word": "socialist",
+    "rhyme": "iB"
+   },
+   {
+    "word": "solenoid",
+    "rhyme": "yd"
+   },
+   {
+    "word": "solid-state",
+    "rhyme": "At"
+   },
+   {
+    "word": "stereo",
+    "rhyme": "O "
+   },
+   {
+    "word": "stultified",
+    "rhyme": "Id"
+   },
+   {
+    "word": "suicide",
+    "rhyme": "Id"
+   },
+   {
+    "word": "telephone",
+    "rhyme": "On"
+   },
+   {
+    "word": "testament",
+    "rhyme": "eG"
+   },
+   {
+    "word": "textual",
+    "rhyme": "ul"
+   },
+   {
+    "word": "therapy",
+    "rhyme": "E "
+   },
+   {
+    "word": "transitive",
+    "rhyme": "iv"
+   },
+   {
+    "word": "turtleneck",
+    "rhyme": "ec"
+   },
+   {
+    "word": "twilight zone",
+    "rhyme": "On"
+   },
+   {
+    "word": "underarm",
+    "rhyme": "oQ"
+   },
+   {
+    "word": "video-disk",
+    "rhyme": "iW"
+   },
+   {
+    "word": "woebegone",
+    "rhyme": "on"
+   },
+   {
+    "word": "yesteryear",
+    "rhyme": "Er"
+   }
+  ]
+ }
+}
