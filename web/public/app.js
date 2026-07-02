@@ -95,8 +95,9 @@ async function boot() {
   $("#pal-save").addEventListener("click", save);
   $("#pal-copy").addEventListener("click", copy);
   document.addEventListener("keydown", (e) => {
-    if ((e.metaKey || e.ctrlKey) && e.key === "n") { e.preventDefault(); newSonnet(); }
-    if (e.key === "r" && !e.metaKey && !e.ctrlKey && e.target === document.body) rewrite();
+    if (e.metaKey || e.ctrlKey || e.target !== document.body) return;
+    if (e.key === "n") newSonnet();
+    if (e.key === "r") rewrite();
   });
 
   render();

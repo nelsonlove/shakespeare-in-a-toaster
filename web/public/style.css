@@ -37,6 +37,7 @@ body {
   font: inherit; font-size: 15px; background: none; border: 0; padding: 3px 14px;
 }
 .menu-items button:hover { background: #000; color: #fff; }
+.apple-glyph { width: 18px; height: 18px; image-rendering: pixelated; display: block; }
 
 /* windows */
 #desktop { display: flex; gap: 24px; padding: 40px; justify-content: center; align-items: flex-start; flex-wrap: wrap; }
