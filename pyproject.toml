@@ -1,0 +1,38 @@
+[project]
+name = "shakespeare-in-a-toaster"
+version = "0.1.0"
+description = "Faithful TUI port of Shakespeare v1.0 (1989-1991, Bob Schumaker) — the 68k Mac sonnet generator from New and Improved Stupid Mac Tricks"
+readme = "README.md"
+license = { text = "MIT" }
+authors = [{ name = "Nelson Love", email = "nelson.love@me.com" }]
+requires-python = ">=3.11"
+dependencies = ["textual>=0.80"]
+keywords = ["sonnet", "poetry", "generator", "tui", "retrocomputing", "classic-mac"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Environment :: Console",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Topic :: Artistic Software",
+    "Topic :: Text Processing :: Linguistic",
+]
+
+[project.urls]
+Repository = "https://github.com/nelsonlove/shakespeare-in-a-toaster"
+
+[project.scripts]
+shakespeare-toaster = "toaster.cli:main"
+
+[dependency-groups]
+dev = ["pytest>=8", "pytest-asyncio>=0.24"]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/toaster"]
+
+[tool.pytest.ini_options]
+asyncio_mode = "auto"
+testpaths = ["tests"]
