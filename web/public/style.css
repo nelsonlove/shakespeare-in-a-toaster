@@ -58,10 +58,13 @@ body {
 .title-bar.mini { height: 14px; }
 
 #main-window { width: min(560px, 92vw); }
-#sonnet { padding: 18px 26px; font-size: 17px; line-height: 1.55; }
-.line { min-height: 1.55em; padding: 0 6px; cursor: pointer; white-space: pre-wrap; }
+/* Sonnet text is Geneva, as in the original (Chicago is chrome only);
+   Verdana is Geneva's screen-font descendant for non-Macs. */
+#sonnet { padding: 18px 26px; font-family: Geneva, Verdana, sans-serif; font-size: 15px; line-height: 1.6; }
+.line { min-height: 1.6em; padding: 0 6px; cursor: pointer; white-space: pre-wrap; }
 .line:hover { outline: 1px dotted #000; }
-.line.frozen { background: #000; color: #fff; }
+/* The original marked frozen lines with italics, not a selection bar. */
+.line.frozen { font-style: italic; }
 .line.blank { cursor: default; }
 .line.blank:hover { outline: none; }
 
