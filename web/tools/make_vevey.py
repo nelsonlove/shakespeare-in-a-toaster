@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 """Regenerate web/public/fonts/Vevey.{ttf,woff2} from a classic Mac System file.
 
-Vevey is a pixel-outline conversion of the 9 pt Geneva bitmap strike
-(FONT resource 393) from a Macintosh System 7.5.5 suitcase. Bitmap
+Vevey is a pixel-outline conversion of the 12 pt Geneva bitmap strike
+(FONT resource 396) from a Macintosh System 7.5.5 suitcase. Bitmap
 typeface designs are not subject to copyright in the US; the name avoids
 Apple's "Geneva" trademark (Vevey is another town on Lake Geneva, in the
 spirit of Kreative Korp's Urban Renewal renames).
@@ -26,8 +26,10 @@ from fontTools.pens.ttGlyphPen import TTGlyphPen
 from fontTools.ttLib import TTFont
 
 PX = 100           # font units per bitmap pixel
-POINT_SIZE = 9      # the strike's point size (from the FOND association table)
-FONT_RES_ID = 393   # Geneva 9 plain, per the Geneva FOND association table
+POINT_SIZE = 12     # the strike's point size (from the FOND association table)
+FONT_RES_ID = 396   # Geneva 12 plain — the original app calls TextFont(3),
+                    # TextSize(12) (CODE 1 offset 0x194), so 12 pt is the
+                    # faithful text face; FONT 393 is the 9 pt strike.
 
 
 def resource_fork(macbinary: bytes) -> bytes:
@@ -90,9 +92,9 @@ def decode_strike(d: bytes) -> dict:
 
 def build(font: dict, outdir: Path):
     asc, desc = font["ascent"], font["descent"]
-    # The em of a bitmap strike equals its point size (9 px for Geneva 9),
-    # NOT ascent+descent (this strike's fRect is 12 px tall to fit accents).
-    # upm = 900 -> CSS font-size 9px renders 1:1, 18px renders 2x.
+    # The em of a bitmap strike equals its point size, NOT ascent+descent
+    # (the fRect is taller, to fit accents). For the 12 pt strike upm = 1200:
+    # CSS font-size 12px renders 1:1, 24px renders 2x.
     upm = POINT_SIZE * PX
     src = font["glyphs"]
 
@@ -140,7 +142,7 @@ def build(font: dict, outdir: Path):
         "fullName": "Vevey Regular",
         "psName": "Vevey-Regular",
         "version": "Version 1.0",
-        "description": "Pixel-outline conversion of the 9 pt bitmap strike "
+        "description": "Pixel-outline conversion of the 12 pt bitmap strike "
                        "from a Macintosh System 7.5.5 suitcase, for the "
                        "Shakespeare in a Toaster preservation project (2026).",
     })
