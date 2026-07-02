@@ -36,6 +36,9 @@ Become atonal juiced imbrue berserk
 
 ## Install & run
 
+Or just visit **[toaster.nelson.love](https://toaster.nelson.love)** — the
+same engine ported to JavaScript, wearing its original System 7 clothes.
+
 ```sh
 uv tool install shakespeare-in-a-toaster   # or: pip install shakespeare-in-a-toaster
 shakespeare-toaster                        # the TUI
