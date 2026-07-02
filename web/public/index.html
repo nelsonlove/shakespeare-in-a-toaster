@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Presenting… Shakespeare In A Toaster</title>
+<meta name="description" content="The 1989 Mac sonnet generator, in your browser. Click a line to freeze it; rewrite the rest.">
+<link rel="icon" type="image/png" href="assets/toaster-head.png">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<nav id="menubar">
+  <div class="menu" data-menu="apple"><span class="menu-title"><img class="apple-glyph" src="assets/toaster-head.png" alt="Menu"></span>
+    <div class="menu-items">
+      <button id="mi-about">About Shakespeare…</button>
+      <button id="mi-help">Shakespeare Help…</button>
+    </div>
+  </div>
+  <div class="menu" data-menu="file"><span class="menu-title">File</span>
+    <div class="menu-items">
+      <button id="mi-new">New Sonnet&nbsp;&nbsp;N</button>
+      <button id="mi-save">Save</button>
+    </div>
+  </div>
+  <div class="menu" data-menu="edit"><span class="menu-title">Edit</span>
+    <div class="menu-items">
+      <button id="mi-copy">Copy&nbsp;&nbsp;⌘C</button>
+    </div>
+  </div>
+</nav>
+
+<main id="desktop">
+  <section class="window" id="main-window" aria-label="Shakespeare">
+    <header class="title-bar"><span class="close-box"></span>
+      <h1 class="title">Shakespeare</h1>
+    </header>
+    <div id="sonnet" aria-live="polite"></div>
+  </section>
+
+  <aside class="window palette" id="palette" aria-label="Tools">
+    <header class="title-bar mini"></header>
+    <button id="pal-rewrite" title="Rewrite sonnet (unfrozen lines)">
+      <img src="assets/rewrite.png" alt="Rewrite"></button>
+    <button id="pal-save" title="Save sonnet as text file">
+      <img src="assets/save.png" alt="Save"></button>
+    <button id="pal-copy" title="Copy sonnet to clipboard">
+      <img src="assets/copy.png" alt="Copy"></button>
+  </aside>
+</main>
+
+<dialog id="about-dialog" class="window modal">
+  <div class="about-flex">
+    <img src="assets/portrait.png" alt="Droeshout portrait of Shakespeare" width="192">
+    <div class="credits-viewport"><div class="credits">
+      <p><b>Shakespeare v1.0</b><br>© 1989–1991 by Bob Schumaker,<br>all rights reserved.</p>
+      <p>Rewritten for the Macintosh by Bob Schumaker</p>
+      <p>Overhauled by /rich $alz</p>
+      <p>Composer code written by Chris Wilbur</p>
+      <p>Thanks to Paul DuBois for the original TransSkel (now much modified).</p>
+      <p>Portions © by THINK Technologies, Inc.</p>
+      <p>No warranties expressed or implied.</p>
+      <p>The suitability of this product for any purpose in not gauranteed.</p>
+      <p>Web port, 2026 — a preservation project.<br>
+         <a href="https://github.com/nelsonlove/shakespeare-in-a-toaster">Source &amp; story</a></p>
+    </div></div>
+  </div>
+  <form method="dialog"><button class="ok">OK</button></form>
+</dialog>
+
+<dialog id="help-dialog" class="window modal">
+  <img src="assets/help.png" alt="Original 1989 help screen" width="550">
+  <p class="help-caption">On the web: the palette is Rewrite / Save / Copy, and clicking a line freezes it — shown inverted.</p>
+  <form method="dialog"><button class="ok">OK</button></form>
+</dialog>
+
+<template id="line-tpl"><div class="line" role="button" tabindex="0"></div></template>
+<script type="module" src="app.js"></script>
+</body>
+</html>
