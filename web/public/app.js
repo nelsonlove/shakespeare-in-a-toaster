@@ -59,8 +59,10 @@ async function boot() {
     const a = document.createElement("a");
     a.href = URL.createObjectURL(blob);
     a.download = "sonnet.txt";
+    document.body.appendChild(a);  // old Safari needs it in the DOM
     a.click();
-    URL.revokeObjectURL(a.href);
+    a.remove();
+    setTimeout(() => URL.revokeObjectURL(a.href), 1000);
   }
   async function copy() {
     try {

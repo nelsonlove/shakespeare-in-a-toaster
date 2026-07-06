@@ -78,6 +78,7 @@ body {
 #sonnet { padding: 18px 26px; font-family: "Vevey", Geneva, sans-serif; font-size: 24px; line-height: 32px; }
 .line { min-height: 32px; padding: 0 6px; cursor: pointer; white-space: pre-wrap; }
 .line:hover { outline: 1px dotted #000; }
+.line:focus-visible { outline: 2px dotted #000; outline-offset: -2px; }
 /* The original marked frozen lines with italics, not a selection bar. */
 .line.frozen { font-style: italic; }
 .line.blank { cursor: default; }
@@ -96,8 +97,14 @@ dialog.modal::backdrop { background: rgba(0,0,0,.25); }
 .about-flex { display: flex; gap: 18px; align-items: flex-start; }
 .about-flex img { image-rendering: pixelated; }
 .credits-viewport { height: 200px; overflow: hidden; position: relative; width: 300px; }
-.credits { position: absolute; animation: scroll-credits 30s linear infinite; font-size: 14px; }
-@keyframes scroll-credits { from { top: 100%; } to { top: -350%; } }
+.credits { position: absolute; top: 100%; animation: scroll-credits 30s linear infinite; font-size: 14px; }
+/* translateY(-100%) is the credits' own height, so the scroll always ends
+   exactly one viewport past the last line regardless of content length. */
+@keyframes scroll-credits { to { transform: translateY(calc(-100% - 200px)); } }
+@media (prefers-reduced-motion: reduce) {
+  .credits { animation: none; position: static; }
+  .credits-viewport { overflow-y: auto; }
+}
 .help-caption { font-size: 13px; max-width: 550px; }
 dialog img { max-width: 100%; height: auto; }
 button.ok {
